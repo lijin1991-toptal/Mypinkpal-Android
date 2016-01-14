@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your membership status: "
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/membershipStatusTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Registered User"
+                android:textSize="16sp"
+                android:textColor="@color/red"/>
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/membershipPackageList"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/membershipPaymentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:background="@color/photo_toolbar"
+        android:padding="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white"
+            android:padding="10dp" >
+
+            <LinearLayout
+                android:id="@+id/membershipPaymentSubLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/membershipPaymentText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="15dp"
+                    android:textSize="20sp"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/membershipCloseButon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="Close"
+                android:textSize="22sp"
+                android:textColor="@color/blue"
+                android:clickable="true"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <include layout="@layout/no_internet_connection" />
+
+    <ProgressBar
+        android:id="@+id/membershipLoading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+</RelativeLayout>

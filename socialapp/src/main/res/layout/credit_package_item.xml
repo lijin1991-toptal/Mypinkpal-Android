@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:background="@drawable/credit_item_border">
+
+    <TextView
+        android:id="@+id/creditPackageTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:text="Silver Package"
+        android:paddingBottom="5dp"
+        android:background="@drawable/border_comment_row"/>
+
+    <TextView
+        android:id="@+id/creditPackageDescription"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="18sp"
+        android:text="10 credits"
+        android:background="@drawable/border_comment_row"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/creditPackageCost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:textSize="22sp"
+            android:text="9.99"
+            android:textColor="@color/red"/>
+
+        <TextView
+            android:id="@+id/creditPackageCurrency"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:text="USD"
+            android:textColor="@color/red"/>
+
+        <TextView
+            android:id="@+id/creditPackageCredits"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:textSize="22sp"
+            android:text="10"
+            android:textColor="@color/green"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Credits"
+            android:textColor="@color/green"/>
+    </LinearLayout>
+</LinearLayout>

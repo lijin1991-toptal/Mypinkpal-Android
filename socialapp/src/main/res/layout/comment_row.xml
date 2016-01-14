@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/comment_item"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border_comment_row"
+    android:orientation="vertical"
+    android:paddingBottom="10dp" >
+
+    <ImageView
+        android:id="@+id/item_img"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:contentDescription="@string/imageView"
+        android:scaleType="centerCrop"
+        android:src="@drawable/loading" />
+
+    <TextView
+        android:id="@+id/item_fullname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/item_img"
+        android:textColor="#0084c9"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/item_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_fullname"
+        android:paddingTop="10dp"
+        android:layout_toRightOf="@+id/item_img"
+        android:textColor="@color/feed_status"
+        android:textSize="12sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_text"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/item_img"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/item_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp"
+            android:textColor="#919191"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/middle_dot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/middot"
+            android:textColor="@color/feed_total_like"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/item_comment_like"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:textColor="@color/feed_total_like"
+            android:textSize="12sp"
+            android:typeface="sans" />
+
+        <LinearLayout
+            android:id="@+id/comment_like_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/middle_dot_total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/middot"
+                android:textColor="@color/feed_total_like"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:typeface="sans" />
+
+            <ImageView
+                android:id="@+id/item_comment_like_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/imageView"
+                android:scaleType="centerCrop"
+                android:src="@drawable/like_icon" />
+
+            <TextView
+                android:id="@+id/item_comment_total_like"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/feed_total_like"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

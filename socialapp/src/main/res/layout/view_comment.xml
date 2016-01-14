@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <!-- View like/unlike - comment -->
+
+    <include
+        android:id="@+id/like_comment_view"
+        android:layout_marginLeft="1dp"
+        layout="@layout/like_comment" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/line_color" />
+    <!-- view load previous comment -->
+
+    <RelativeLayout
+        android:id="@+id/view_more_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/like_area"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/item_viewmore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="7dp"
+            android:textColor="@color/like_button"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/scrollview_comment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:id="@+id/parent_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </LinearLayout>
+
+    <include
+        android:id="@+id/post_comment_view"
+        layout="@layout/send_view" />
+
+</LinearLayout>

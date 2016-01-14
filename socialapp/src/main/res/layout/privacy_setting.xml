@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/blog_background">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="5" />
+
+    <TextView
+        android:id="@+id/privacyprofileTxt"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:gravity="center_vertical"
+        android:layout_weight="2"
+        android:text="  Profile"
+        android:textSize="22sp"
+        android:background="@color/white"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.2"/>
+
+    <TextView
+        android:id="@+id/privacyitemsTxt"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:gravity="center_vertical"
+        android:layout_weight="2"
+        android:text="  Items"
+        android:textSize="22sp"
+        android:background="@color/white"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.2"/>
+
+    <TextView
+        android:id="@+id/privacynotificationsTxt"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:gravity="center_vertical"
+        android:layout_weight="2"
+        android:text="  Notifications"
+        android:textSize="22sp"
+        android:background="@color/white"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.2"/>
+
+    <TextView
+        android:id="@+id/privacyblockTxt"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:gravity="center_vertical"
+        android:layout_weight="2"
+        android:text="  Blocked Users"
+        android:textSize="22sp"
+        android:background="@color/white"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.2"/>
+
+    <TextView
+        android:id="@+id/privacyinvisibleTxt"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:gravity="center_vertical"
+        android:layout_weight="2"
+        android:text="  Invisible Mode"
+        android:textSize="22sp"
+        android:background="@color/white"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="5" />
+
+</LinearLayout>

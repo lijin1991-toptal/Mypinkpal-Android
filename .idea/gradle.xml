@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1" />
+        <option name="gradleJvm" value="1.8" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Q-municate_core" />
+            <option value="$PROJECT_DIR$/appRater" />
+            <option value="$PROJECT_DIR$/circularImageView" />
+            <option value="$PROJECT_DIR$/facebook" />
+            <option value="$PROJECT_DIR$/libraries" />
+            <option value="$PROJECT_DIR$/libraries/SlidingMenu" />
+            <option value="$PROJECT_DIR$/libraries/SlidingMenu/library" />
+            <option value="$PROJECT_DIR$/library" />
+            <option value="$PROJECT_DIR$/paperSlidingTab" />
+            <option value="$PROJECT_DIR$/pullToRefreshLi" />
+            <option value="$PROJECT_DIR$/socialapp" />
+            <option value="$PROJECT_DIR$/stickyListHeaders" />
+            <option value="$PROJECT_DIR$/urlImageViewHelper" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

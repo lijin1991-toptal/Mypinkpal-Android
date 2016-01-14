@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/feed_background" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/like_view_like"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="@drawable/like_button_action"
+            android:visibility="gone" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true" >
+
+                <ImageView
+                    android:id="@+id/grid_item_like_icon"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/imageView"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/like_icon_new" />
+                <!-- Like -->
+
+                <TextView
+                    android:id="@+id/like"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/grid_item_like_icon"
+                    android:textColor="@color/feed_like_text"
+                    android:textSize="13sp"
+                    android:typeface="sans" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/like_view_comment"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="@drawable/like_button_action"
+            android:visibility="gone" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true" >
+
+                <ImageView
+                    android:id="@+id/grid_item_comment_icon"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/imageView"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/comment_icon_new" />
+
+                <TextView
+                    android:id="@+id/comment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/grid_item_comment_icon"
+                    android:textColor="@color/feed_like_text"
+                    android:textSize="13sp"
+                    android:typeface="sans" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/like_view_share"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="@drawable/like_button_action"
+            android:visibility="gone" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true" >
+
+                <ImageView
+                    android:id="@+id/grid_item_share_icon"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/imageView"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/share_icon_new" />
+
+                <TextView
+                    android:id="@+id/share"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/grid_item_share_icon"
+                    android:textColor="@color/feed_like_text"
+                    android:textSize="13sp"
+                    android:typeface="sans" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/lineBotton"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/feed_background"
+        android:visibility="gone" />
+
+</LinearLayout>

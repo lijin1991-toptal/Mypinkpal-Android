@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blog_background" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/blog_background" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/event_category"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="vertical" >
+
+                <ProgressBar
+                    android:id="@+id/loading_category_progress"
+                    style="?android:attr/progressBarStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/event_children_category"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <ProgressBar
+                    android:id="@+id/loading_children_category_progress"
+                    style="?android:attr/progressBarStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/event_plan_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/login_edittext1"
+                android:ems="10"
+                android:inputType="text"
+                android:paddingLeft="11dp"
+                android:textSize="13sp"
+                android:typeface="normal" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/event_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/login_edittext1"
+                android:ems="10"
+                android:gravity="top|left"
+                android:inputType="textMultiLine"
+                android:maxLines="10"
+                android:minLines="6"
+                android:paddingLeft="11dp"
+                android:scrollbars="vertical"
+                android:textSize="13sp"
+                android:typeface="normal" />
+
+            <TextView
+                android:id="@+id/event_startTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="5dp"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="13sp" />
+
+            <RelativeLayout
+                android:id="@+id/event_start_time_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/login_edittext1" >
+
+                <TextView
+                    android:id="@+id/event_startTime_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="11dp" />
+
+                <ImageView
+                    android:id="@+id/event_pickStartTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    android:contentDescription="@string/imageView"
+                    android:src="@drawable/calculator_pick" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/event_add_endTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:ems="10"
+                android:paddingLeft="11dp"
+                android:typeface="normal" />
+
+            <LinearLayout
+                android:id="@+id/event_endTime_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/event_endTime_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:paddingLeft="5dp"
+                    android:textAllCaps="true"
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+                <RelativeLayout
+                    android:id="@+id/event_end_time_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/login_edittext1" >
+
+                    <TextView
+                        android:id="@+id/EndTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:paddingLeft="11dp" />
+
+                    <ImageView
+                        android:id="@+id/pickEndTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="5dp"
+                        android:contentDescription="@string/imageView"
+                        android:src="@drawable/calculator_pick" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/event_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/login_edittext1"
+                android:ems="10"
+                android:inputType="text"
+                android:paddingLeft="11dp"
+                android:textSize="13sp"
+                android:typeface="normal" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/event_add_country"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:ems="10"
+                android:paddingLeft="11dp"
+                android:typeface="normal" />
+
+            <LinearLayout
+                android:id="@+id/event_add_country_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <EditText
+                    android:id="@+id/event_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/login_edittext1"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:paddingLeft="11dp"
+                    android:textSize="13sp"
+                    android:typeface="normal" >
+                </EditText>
+
+                <EditText
+                    android:id="@+id/event_city"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/login_edittext1"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:paddingLeft="11dp"
+                    android:textSize="13sp"
+                    android:typeface="normal" >
+                </EditText>
+
+                <EditText
+                    android:id="@+id/event_code"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/login_edittext1"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:paddingLeft="11dp"
+                    android:textSize="13sp"
+                    android:typeface="normal" >
+                </EditText>
+
+                <LinearLayout
+                    android:id="@+id/event_country"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical" >
+
+                    <ProgressBar
+                        android:id="@+id/loading_country_progress"
+                        style="?android:attr/android:progressBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/event_children_country"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical"
+                    android:visibility="gone" >
+
+                    <ProgressBar
+                        android:id="@+id/loading_children_country_progress"
+                        style="?android:attr/android:progressBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="8dp" >
+
+                <TextView
+                    android:id="@+id/event_privacy_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:paddingLeft="5dp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/login_edittext1" >
+
+                    <RelativeLayout
+                        android:id="@+id/event_privacy"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="9dp"
+                        android:background="@drawable/border_post_privacy" >
+
+                        <TextView
+                            android:id="@+id/event_privacy_tv"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="1dp"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            android:background="@drawable/post_privacy"
+                            android:paddingLeft="38dp"
+                            android:paddingRight="38dp"
+                            android:paddingTop="8dp"
+                            android:textColor="@color/share_status"
+                            android:textSize="14sp" />
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_margin="8dp"
+                            android:contentDescription="@string/imageView"
+                            android:src="@drawable/post_stt_privacy_icon" />
+
+                        <ImageView
+                            android:id="@+id/event_privacy_img"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:contentDescription="@string/imageView"
+                            android:src="@drawable/post_stt_privacy" />
+                    </RelativeLayout>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="8dp" >
+
+                <TextView
+                    android:id="@+id/event_privacy_share_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:paddingLeft="5dp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/login_edittext1" >
+
+                    <RelativeLayout
+                        android:id="@+id/event_privacy_share"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="9dp"
+                        android:background="@drawable/border_post_privacy" >
+
+                        <TextView
+                            android:id="@+id/event_privacy_share_tv"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="1dp"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            android:background="@drawable/post_privacy"
+                            android:paddingLeft="38dp"
+                            android:paddingRight="38dp"
+                            android:paddingTop="8dp"
+                            android:textColor="@color/share_status"
+                            android:textSize="14sp" />
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_margin="8dp"
+                            android:contentDescription="@string/imageView"
+                            android:src="@drawable/post_stt_privacy_icon" />
+
+                        <ImageView
+                            android:id="@+id/event_privacy_share_img"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:contentDescription="@string/imageView"
+                            android:src="@drawable/post_stt_privacy" />
+                    </RelativeLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/create_event_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone" />
+
+</RelativeLayout>

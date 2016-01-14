@@ -1,0 +1,1357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/src/main/res/values/arrays.xml -->
+    <eat-comment/>
+    <string-array name="change_picture">
+        <item>Take New Photo</item>
+        <item>Choose From Gallery</item>
+    </string-array>
+    <string-array name="confirm_friend">
+        <item>Accept</item>
+        <item>Deny</item>
+        <item>Cancel</item>
+    </string-array>
+    <string-array name="confirm_privacy">
+        <item>Everyone</item>
+        <item>Friends</item>
+        <item>Friends of Friends</item>
+        <item>Only Me</item>
+    </string-array>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/build/intermediates/exploded-aar/Mypinkpal_Android/Q-municate_core/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <string-array name="friends_relation_statuses_array">
+        <item>none</item>
+        <item>to</item>
+        <item>both</item>
+        <item>from</item>
+        <item>remove</item>
+    </string-array>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/src/main/res/values/arrays.xml -->
+    <eat-comment/>
+    <string-array name="ns_menu_items">
+        <item>dashboard</item>
+        <item>message</item>
+        <item>friend</item>
+    </string-array>
+    <array name="ns_menu_items_icon">
+        <item>dashboard_icon</item>
+        <item>message_icon</item>
+        <item>friend_icon</item>
+        <item>friend_icon</item>
+        <item>nearme_icon</item>
+        <item>placeholder_group</item>
+        <item>credit_card</item>
+    </array>
+    <string-array name="ns_music_items">
+        <item>all_album_icon</item>
+        <item>my_album_icon</item>
+    </string-array>
+    <string-array name="sexuality">
+        <item/>
+        <item>Asexual</item>
+        <item>Bicurious</item>
+        <item>Bisexual</item>
+        <item>Bi-trendy</item>
+        <item>Hetrosexual</item>
+        <item>Gay</item>
+        <item>Monosexual</item>
+        <item>Lesbian</item>
+        <item>Pansexual</item>
+        <item>Polysexual</item>
+        <item>Questioning</item>
+        <item>Transgender</item>
+        <item>Transexual</item>
+    </string-array>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/build/intermediates/exploded-aar/com.actionbarsherlock/actionbarsherlock/4.4.0/res/values/values.xml -->
+    <eat-comment/>
+    <attr format="reference|color" name="background"/>
+    <attr format="reference|color" name="backgroundSplit"/>
+    <attr format="reference" name="divider"/>
+    <attr format="dimension" name="height"/>
+    <attr format="reference" name="subtitleTextStyle"/>
+    <attr format="reference" name="titleTextStyle"/>
+    <bool name="abs__action_bar_embed_tabs">false</bool>
+    <bool name="abs__action_bar_expanded_action_views_exclusive">true</bool>
+    <bool name="abs__config_actionMenuItemAllCaps">true</bool>
+    <bool name="abs__config_allowActionMenuItemTextWithIcon">false</bool>
+    <bool name="abs__config_showMenuShortcutsWhenKeyboardPresent">false</bool>
+    <bool name="abs__split_action_bar_is_narrow">true</bool>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/src/main/res/values/analytics.xml -->
+    <eat-comment/>
+    <bool name="ga_autoActivityTracking">true</bool>
+    <bool name="ga_reportUncaughtExceptions">true</bool>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="a_green">#ff55d951</color>
+    <color name="a_green_pressed">#ff348631</color>
+    <color name="a_red">#c0d93431</color>
+    <color name="a_red_pressed">#d69f2626</color>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/build/intermediates/exploded-aar/com.actionbarsherlock/actionbarsherlock/4.4.0/res/values/values.xml -->
+    <eat-comment/>
+    <color name="abs__background_holo_dark">#ff000000</color>
+    <color name="abs__background_holo_light">#fff3f3f3</color>
+    <color name="abs__bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="abs__bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <color name="abs__bright_foreground_holo_dark">@color/abs__background_holo_light</color>
+    <color name="abs__bright_foreground_holo_light">@color/abs__background_holo_dark</color>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="action_bar_background_color">#0d70b3</color>
+    <color name="album">#959595</color>
+    <color name="album_line">#b5b5b5</color>
+    <color name="album_name">#424242</color>
+    <color name="album_time">#868686</color>
+    <color name="album_total">#008cc8</color>
+    <color name="avatar_border_color">#2e2e2e</color>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/build/intermediates/exploded-aar/Mypinkpal_Android/paperSlidingTab/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="badge_online_color">#1cba48</color>
+    <color name="badge_participants_counter_color">#0d70b3</color>
+    <color name="badge_unread_messages_counter_color">#d20000</color>
+    <color name="black">#000000</color>
+    <color name="blog_background">#e7e7e7</color>
+    <color name="blog_image_thumb">#f3f3f3</color>
+    <color name="blog_line">#b2b2b2</color>
+    <color name="blog_time">#bab9b9</color>
+    <color name="blue">#0d70b3</color>
+    <color name="button_blue_normal_color">#0d70b3</color>
+    <color name="button_blue_pressed_color">#ff0d5389</color>
+    <color name="button_end_call_normal_color">#ff0000</color>
+    <color name="button_end_call_pressed_color">#e4f4ff</color>
+    <color name="button_facebook_normal_color">#3b5998</color>
+    <color name="button_facebook_pressed_color">#ff265198</color>
+    <color name="button_global_search_normal_color">#00bf28</color>
+    <color name="button_global_search_pressed_color">#00851c</color>
+    <color name="button_log_in_normal_color">#00bf28</color>
+    <color name="button_log_in_pressed_color">#00851c</color>
+    <color name="button_null_background_pressed_color">#e4f4ff</color>
+    <color name="button_sign_up_normal_blue_color">#0077cb</color>
+    <color name="button_sign_up_normal_green_color">#00bf28</color>
+    <color name="button_sign_up_pressed_blue_color">#00538e</color>
+    <color name="button_sign_up_pressed_green_color">#00851c</color>
+    <color name="chat_attach_background_color">#ffd9d9d9</color>
+    <color name="chat_background_color">#f5f5f5</color>
+    <color name="chat_emoji_panel_color">#ff303030</color>
+    <color name="chat_emoji_tabs_color">#ff202020</color>
+    <color name="circle_view_mask_color">#ffffff</color>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/build/intermediates/exploded-aar/Mypinkpal_Android/facebook/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <color name="com_facebook_blue">#3B5998</color>
+    <color name="com_facebook_loginview_text_color">#FFFFFF</color>
+    <color name="com_facebook_picker_search_bar_background">#f5f5f7</color>
+    <color name="com_facebook_picker_search_bar_text">#bcbdc2</color>
+    <color name="com_facebook_usersettingsfragment_connected_shadow_color">#000000</color>
+    <color name="com_facebook_usersettingsfragment_connected_text_color">#FFFFFF</color>
+    <color name="com_facebook_usersettingsfragment_not_connected_text_color">#A6AED7</color>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="comment_viewmore_arena">#f0f0f0</color>
+    <color name="comment_viewmore_text">#828282</color>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/build/intermediates/exploded-aar/com.google.android.gms/play-services/3.2.65/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="common_action_bar_splitter">#d2d2d2</color>
+    <color name="common_signin_btn_dark_text_default">@android:color/white</color>
+    <color name="common_signin_btn_dark_text_disabled">#FFAAAAAA</color>
+    <color name="common_signin_btn_dark_text_focused">@android:color/white</color>
+    <color name="common_signin_btn_dark_text_pressed">@android:color/white</color>
+    <color name="common_signin_btn_default_background">#FFDD4B39</color>
+    <color name="common_signin_btn_light_text_default">#FF737373</color>
+    <color name="common_signin_btn_light_text_disabled">#FFAAAAAA</color>
+    <color name="common_signin_btn_light_text_focused">#FF737373</color>
+    <color name="common_signin_btn_light_text_pressed">@android:color/white</color>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="converstion_time">#848484</color>
+    <color name="dark_gray">#ff6c6c6c</color>
+    <color name="dlg_message_name_color">#0d70b3</color>
+    <color name="event_name">#5c5c5c</color>
+    <color name="event_name_background">#c4c4c4</color>
+    <color name="event_time">#737373</color>
+    <color name="feed_background">#dddddd</color>
+    <color name="feed_button_background">#f5f5f5</color>
+    <color name="feed_like_line">#aaaaaa</color>
+    <color name="feed_like_text">#474747</color>
+    <color name="feed_share_background">#f6f6f6</color>
+    <color name="feed_status">#323232</color>
+    <color name="feed_time">#aeaeae</color>
+    <color name="feed_title">#676767</color>
+    <color name="feed_total_like">#0084c9</color>
+    <color name="find_friend_background">#dedede</color>
+    <color name="forum_header_item">#f4f4f4</color>
+    <color name="forum_new_thread">#ededed</color>
+    <color name="friend_birthday">#878787</color>
+    <color name="friend_fullname">#118ccd</color>
+    <color name="friend_not_now">#2b2b2b</color>
+    <color name="gray">#999999</color>
+    <color name="green">#1cba48</color>
+    <color name="grey1">#dedede</color>
+    <color name="grey2">#A9A8A8</color>
+    <color name="header">#656565</color>
+    <color name="header_date_color">#ffd5d5d5</color>
+    <color name="info_left">#767676</color>
+    <color name="info_text">#818181</color>
+    <color name="invite_full_name">#383838</color>
+    <color name="is_read">#f4fbff</color>
+    <color name="light_blue">#ff0d8cd1</color>
+    <color name="light_gray">#ffefefef</color>
+    <color name="like_area">#e1e1e1</color>
+    <color name="like_button">#009bdc</color>
+    <color name="like_comment">#aeaeae</color>
+    <color name="line_color">#b3b3b3</color>
+    <color name="link_text_color">#0d70b3</color>
+    <color name="link_url">#676767</color>
+    <color name="list_background">#e7e7e7</color>
+    <color name="list_item_background_pressed_color">#e4f4ff</color>
+    <color name="market_place_info">#5f5f5f</color>
+    <color name="market_place_title">#0084c7</color>
+    <color name="market_place_top">#242424</color>
+    <color name="menu_item_background_activated_color">#1cba48</color>
+    <color name="menu_item_background_longpressed_color">#ff9de8a2</color>
+    <color name="menu_item_background_pressed_color">#1cba48</color>
+    <color name="module_name">#6d6d6d</color>
+    <color name="pager_background">#f2f2f2</color>
+    <color name="photo_like_area">#80e1e1e1</color>
+    <color name="photo_toolbar">#CC1b1b1b</color>
+    <color name="photo_total_like">#16b6f6</color>
+    <color name="profile_button_text">#4d4d4d</color>
+    <color name="profile_line_black_status">#eaeaea</color>
+    <color name="profile_line_blue_status">#5cb0dc</color>
+    <color name="profile_message">#696969</color>
+    <color name="profile_name">#2f2e2e</color>
+    <color name="profile_status_background">#0084c9</color>
+    <color name="recent_photo">#9b9b9b</color>
+    <color name="recent_photo_viewall">#737373</color>
+    <color name="red">#ff0000</color>
+    <color name="screen_call_background_color">#333333</color>
+    <color name="screen_call_timer_text_color">#999999</color>
+    <color name="share_background">#e7e7e7</color>
+    <color name="share_button_text">#797979</color>
+    <color name="share_status">#646363</color>
+    <color name="share_status_header">#b1b1b1</color>
+    <color name="share_text">#4c4c4c</color>
+    <color name="share_to">#5a5a5a</color>
+    <color name="sidebar_background">#191919</color>
+    <color name="sidebar_color">#6D6D6D</color>
+    <color name="skip_button_background">#0084c9</color>
+    <color name="text_button">#4ACFF7</color>
+    <color name="title_friend">#040404</color>
+    <color name="top_invite_background">#e2e2e2</color>
+    <color name="top_invite_button">#929292</color>
+    <color name="upload_share">#919191</color>
+    <color name="viewmore_album">#c7c7c7</color>
+    <color name="viewmore_button">#373737</color>
+    <color name="white">#ffffff</color>
+    <declare-styleable name="CircularImageView"><attr format="boolean" name="border"/><attr format="dimension" name="border_width"/><attr format="color" name="border_color"/><attr format="boolean" name="shadow"/></declare-styleable>
+    <declare-styleable name="Emojicon"><attr format="dimension" name="emojiconSize"/></declare-styleable>
+    <declare-styleable name="FeedComment"><attr format="string" name="type"/><attr format="string" name="item_id"/></declare-styleable>
+    <declare-styleable name="MapAttrs"><attr format="enum" name="mapType"><enum name="none" value="0"/><enum name="normal" value="1"/><enum name="satellite" value="2"/><enum name="terrain" value="3"/><enum name="hybrid" value="4"/></attr><attr format="float" name="cameraBearing"/><attr format="float" name="cameraTargetLat"/><attr format="float" name="cameraTargetLng"/><attr format="float" name="cameraTilt"/><attr format="float" name="cameraZoom"/><attr format="boolean" name="uiCompass"/><attr format="boolean" name="uiRotateGestures"/><attr format="boolean" name="uiScrollGestures"/><attr format="boolean" name="uiTiltGestures"/><attr format="boolean" name="uiZoomControls"/><attr format="boolean" name="uiZoomGestures"/><attr format="boolean" name="useViewLifecycle"/><attr format="boolean" name="zOrderOnTop"/></declare-styleable>
+    <declare-styleable name="MaskedImageView"><attr format="integer" name="mask"/></declare-styleable>
+    <declare-styleable name="PagerSlidingTabStrip"><attr format="color" name="indicatorColor"/><attr format="color" name="underlineColor"/><attr format="color" name="dividerColor"/><attr format="dimension" name="indicatorHeight"/><attr format="dimension" name="underlineHeight"/><attr format="dimension" name="dividerPadding"/><attr format="dimension" name="tabPaddingLeftRight"/><attr format="dimension" name="scrollOffset"/><attr format="reference" name="tabBackground"/><attr format="boolean" name="shouldExpand"/><attr format="boolean" name="textAllCaps"/></declare-styleable>
+    <declare-styleable name="PullToRefresh"><attr format="reference|color" name="ptrRefreshableViewBackground"/><attr format="reference|color" name="ptrHeaderBackground"/><attr format="reference|color" name="ptrHeaderTextColor"/><attr format="reference|color" name="ptrHeaderSubTextColor"/><attr name="ptrMode"><flag name="disabled" value="0x0"/><flag name="pullFromStart" value="0x1"/><flag name="pullFromEnd" value="0x2"/><flag name="both" value="0x3"/><flag name="manualOnly" value="0x4"/><flag name="pullDownFromTop" value="0x1"/><flag name="pullUpFromBottom" value="0x2"/></attr><attr format="reference|boolean" name="ptrShowIndicator"/><attr format="reference" name="ptrDrawable"/><attr format="reference" name="ptrDrawableStart"/><attr format="reference" name="ptrDrawableEnd"/><attr format="reference|boolean" name="ptrOverScroll"/><attr format="reference" name="ptrHeaderTextAppearance"/><attr format="reference" name="ptrSubHeaderTextAppearance"/><attr name="ptrAnimationStyle"><flag name="rotate" value="0x0"/><flag name="flip" value="0x1"/></attr><attr format="reference|boolean" name="ptrScrollingWhileRefreshingEnabled"/><attr format="reference|boolean" name="ptrListViewExtrasEnabled"/><attr format="reference|boolean" name="ptrRotateDrawableWhilePulling"/><attr format="reference|color" name="ptrAdapterViewBackground"/><attr format="reference" name="ptrDrawableTop"/><attr format="reference" name="ptrDrawableBottom"/></declare-styleable>
+    <declare-styleable name="RoundedImageView"><attr format="dimension" name="corner_radius"/><attr format="dimension" name="qbborder_width"/><attr format="color" name="qbborder_color"/><attr format="boolean" name="mutate_background"/><attr format="boolean" name="oval"/><attr name="android:scaleType"/></declare-styleable>
+    <declare-styleable name="SherlockActionBar"><attr name="navigationMode"><enum name="normal" value="0"/><enum name="listMode" value="1"/><enum name="tabMode" value="2"/></attr><attr name="displayOptions"><flag name="useLogo" value="0x1"/><flag name="showHome" value="0x2"/><flag name="homeAsUp" value="0x4"/><flag name="showTitle" value="0x8"/><flag name="showCustom" value="0x10"/><flag name="disableHome" value="0x20"/></attr><attr format="string" name="title"/><attr format="string" name="subtitle"/><attr name="titleTextStyle"/><attr name="subtitleTextStyle"/><attr format="reference" name="icon"/><attr format="reference" name="logo"/><attr name="divider"/><attr name="background"/><attr format="reference|color" name="backgroundStacked"/><attr name="backgroundSplit"/><attr format="reference" name="customNavigationLayout"/><attr name="height"/><attr format="reference" name="homeLayout"/><attr format="reference" name="progressBarStyle"/><attr format="reference" name="indeterminateProgressStyle"/><attr format="dimension" name="progressBarPadding"/><attr format="dimension" name="itemPadding"/></declare-styleable>
+    <declare-styleable name="SherlockActionMenuItemView"><attr name="android:minWidth"/></declare-styleable>
+    <declare-styleable name="SherlockActionMode"><attr name="titleTextStyle"/><attr name="subtitleTextStyle"/><attr name="background"/><attr name="backgroundSplit"/><attr name="height"/></declare-styleable>
+    <declare-styleable name="SherlockActivityChooserView"><attr format="string" name="initialActivityCount"/><attr format="reference" name="expandActivityOverflowButtonDrawable"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="SherlockMenuGroup"><attr name="android:id"/><attr name="android:menuCategory"/><attr name="android:orderInCategory"/><attr name="android:checkableBehavior"/><attr name="android:visible"/><attr name="android:enabled"/></declare-styleable>
+    <declare-styleable name="SherlockMenuItem"><attr name="android:id"/><attr name="android:menuCategory"/><attr name="android:orderInCategory"/><attr name="android:title"/><attr name="android:titleCondensed"/><attr name="android:icon"/><attr name="android:alphabeticShortcut"/><attr name="android:numericShortcut"/><attr name="android:checkable"/><attr name="android:checked"/><attr name="android:visible"/><attr name="android:enabled"/><attr name="android:onClick"/><attr name="android:showAsAction"/><attr name="android:actionLayout"/><attr name="android:actionViewClass"/><attr name="android:actionProviderClass"/></declare-styleable>
+    <declare-styleable name="SherlockMenuView"><attr format="reference" name="itemTextAppearance"/><attr format="reference" name="horizontalDivider"/><attr format="reference" name="verticalDivider"/><attr format="color|reference" name="headerBackground"/><attr format="color|reference" name="itemBackground"/><attr format="reference" name="windowAnimationStyle"/><attr format="float" name="itemIconDisabledAlpha"/><attr format="boolean" name="preserveIconSpacing"/></declare-styleable>
+    <declare-styleable name="SherlockSearchView"><attr format="boolean" name="iconifiedByDefault"/><attr name="android:maxWidth"/><attr format="string" name="queryHint"/><attr name="android:imeOptions"/><attr name="android:inputType"/></declare-styleable>
+    <declare-styleable name="SherlockSpinner"><attr name="android:prompt"/><attr name="android:dropDownSelector"/><attr name="android:popupBackground"/><attr name="android:dropDownVerticalOffset"/><attr name="android:dropDownHorizontalOffset"/><attr name="android:dropDownWidth"/><attr name="android:popupPromptView"/><attr name="android:gravity"/></declare-styleable>
+    <declare-styleable name="SherlockTheme"><attr format="reference" name="actionBarTabStyle"/><attr format="reference" name="actionBarTabBarStyle"/><attr format="reference" name="actionBarTabTextStyle"/><attr format="reference" name="actionOverflowButtonStyle"/><attr format="reference" name="actionBarStyle"/><attr format="reference" name="actionBarSplitStyle"/><attr format="reference" name="actionBarWidgetTheme"/><attr format="dimension" name="actionBarSize"><enum name="wrap_content" value="0"/></attr><attr format="reference" name="actionBarDivider"/><attr format="reference" name="actionBarItemBackground"/><attr format="reference" name="actionMenuTextAppearance"/><attr format="color|reference" name="actionMenuTextColor"/><attr format="reference" name="actionModeStyle"/><attr format="reference" name="actionModeCloseButtonStyle"/><attr format="reference" name="actionModeBackground"/><attr format="reference" name="actionModeSplitBackground"/><attr format="reference" name="actionModeCloseDrawable"/><attr format="reference" name="actionModeShareDrawable"/><attr format="reference" name="actionModePopupWindowStyle"/><attr format="reference" name="buttonStyleSmall"/><attr format="reference" name="selectableItemBackground"/><attr format="reference" name="windowContentOverlay"/><attr format="reference" name="textAppearanceLargePopupMenu"/><attr format="reference" name="textAppearanceSmallPopupMenu"/><attr format="reference" name="textAppearanceSmall"/><attr format="color" name="textColorPrimary"/><attr format="color" name="textColorPrimaryDisableOnly"/><attr format="color" name="textColorPrimaryInverse"/><attr format="reference" name="spinnerItemStyle"/><attr format="reference" name="spinnerDropDownItemStyle"/><attr format="reference" name="searchAutoCompleteTextView"/><attr format="reference" name="searchDropdownBackground"/><attr format="reference" name="searchViewCloseIcon"/><attr format="reference" name="searchViewGoIcon"/><attr format="reference" name="searchViewSearchIcon"/><attr format="reference" name="searchViewVoiceIcon"/><attr format="reference" name="searchViewEditQuery"/><attr format="reference" name="searchViewEditQueryBackground"/><attr format="reference" name="searchViewTextField"/><attr format="reference" name="searchViewTextFieldRight"/><attr format="reference|color" name="textColorSearchUrl"/><attr format="dimension" name="searchResultListItemHeight"/><attr format="reference" name="textAppearanceSearchResultTitle"/><attr format="reference" name="textAppearanceSearchResultSubtitle"/><attr format="dimension" name="listPreferredItemHeightSmall"/><attr format="dimension" name="listPreferredItemPaddingLeft"/><attr format="dimension" name="listPreferredItemPaddingRight"/><attr format="reference" name="textAppearanceListItemSmall"/><attr format="dimension" name="windowMinWidthMajor"/><attr format="dimension" name="windowMinWidthMinor"/><attr format="reference" name="dividerVertical"/><attr format="reference" name="actionDropDownStyle"/><attr format="reference" name="actionButtonStyle"/><attr format="reference" name="homeAsUpIndicator"/><attr format="reference" name="dropDownListViewStyle"/><attr format="reference" name="popupMenuStyle"/><attr format="dimension" name="dropdownListPreferredItemHeight"/><attr format="reference" name="actionSpinnerItemStyle"/><attr format="boolean" name="windowNoTitle"/><attr format="boolean" name="windowActionBar"/><attr format="boolean" name="windowActionBarOverlay"/><attr format="boolean" name="windowActionModeOverlay"/><attr format="boolean" name="windowSplitActionBar"/><attr format="reference" name="listPopupWindowStyle"/><attr format="reference" name="activityChooserViewStyle"/><attr format="reference" name="activatedBackgroundIndicator"/><attr format="reference" name="dropDownHintAppearance"/></declare-styleable>
+    <declare-styleable name="SherlockView"><attr name="android:focusable"/></declare-styleable>
+    <declare-styleable name="SlidingMenu"><attr name="mode"><enum name="left" value="0"/><enum name="right" value="1"/></attr><attr format="reference" name="viewAbove"/><attr format="reference" name="viewBehind"/><attr format="dimension" name="behindOffset"/><attr format="dimension" name="behindWidth"/><attr format="float" name="behindScrollScale"/><attr name="touchModeAbove"><enum name="margin" value="0"/><enum name="fullscreen" value="1"/><enum name="none" value="2"/></attr><attr name="touchModeBehind"><enum name="margin" value="0"/><enum name="fullscreen" value="1"/><enum name="none" value="2"/></attr><attr format="reference" name="shadowDrawable"/><attr format="dimension" name="shadowWidth"/><attr format="boolean" name="fadeEnabled"/><attr format="float" name="fadeDegree"/><attr format="boolean" name="selectorEnabled"/><attr format="reference" name="selectorDrawable"/></declare-styleable>
+    <declare-styleable name="StickyListHeadersListView"><attr name="android:clipToPadding"/><attr name="android:scrollbars"/><attr name="android:overScrollMode"/><attr name="android:padding"/><attr name="android:paddingLeft"/><attr name="android:paddingTop"/><attr name="android:paddingRight"/><attr name="android:paddingBottom"/><attr name="android:fadingEdgeLength"/><attr name="android:requiresFadingEdge"/><attr name="android:cacheColorHint"/><attr name="android:choiceMode"/><attr name="android:drawSelectorOnTop"/><attr name="android:fastScrollEnabled"/><attr name="android:fastScrollAlwaysVisible"/><attr name="android:listSelector"/><attr name="android:scrollingCache"/><attr name="android:scrollbarStyle"/><attr name="android:divider"/><attr name="android:dividerHeight"/><attr name="android:transcriptMode"/><attr format="boolean" name="hasStickyHeaders"/><attr format="boolean" name="isDrawingListUnderStickyHeader"/></declare-styleable>
+    <declare-styleable name="Theme"><attr format="reference" name="circularImageViewStyle"/></declare-styleable>
+    <declare-styleable name="com_facebook_friend_picker_fragment"><attr format="boolean" name="multi_select"/></declare-styleable>
+    <declare-styleable name="com_facebook_login_view"><attr format="boolean" name="confirm_logout"/><attr format="boolean" name="fetch_user_info"/><attr format="string" name="login_text"/><attr format="string" name="logout_text"/></declare-styleable>
+    <declare-styleable name="com_facebook_picker_fragment"><attr format="boolean" name="show_pictures"/><attr format="string" name="extra_fields"/><attr format="boolean" name="show_title_bar"/><attr format="string" name="title_text"/><attr format="string" name="done_button_text"/><attr format="reference" name="title_bar_background"/><attr format="reference" name="done_button_background"/></declare-styleable>
+    <declare-styleable name="com_facebook_place_picker_fragment"><attr format="integer" name="radius_in_meters"/><attr format="integer" name="results_limit"/><attr format="string" name="search_text"/><attr format="boolean" name="show_search_box"/></declare-styleable>
+    <declare-styleable name="com_facebook_profile_picture_view"><attr name="preset_size"><enum name="small" value="-2"/><enum name="normal" value="-3"/><enum name="large" value="-4"/></attr><attr format="boolean" name="is_cropped"/></declare-styleable>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/build/intermediates/exploded-aar/com.actionbarsherlock/actionbarsherlock/4.4.0/res/values/values.xml -->
+    <eat-comment/>
+    <dimen name="abs__action_bar_default_height">48dip</dimen>
+    <dimen name="abs__action_bar_icon_vertical_padding">8dip</dimen>
+    <dimen name="abs__action_bar_subtitle_bottom_margin">5dip</dimen>
+    <dimen name="abs__action_bar_subtitle_text_size">14dp</dimen>
+    <dimen name="abs__action_bar_subtitle_top_margin">-3dp</dimen>
+    <dimen name="abs__action_bar_title_text_size">18dp</dimen>
+    <dimen name="abs__action_button_min_width">56dip</dimen>
+    <dimen name="abs__config_prefDialogWidth">320dp</dimen>
+    <dimen name="abs__dropdownitem_icon_width">32dip</dimen>
+    <dimen name="abs__dropdownitem_text_padding_left">8dip</dimen>
+    <dimen name="abs__dropdownitem_text_padding_right">8dip</dimen>
+    <dimen name="abs__search_view_preferred_width">320dip</dimen>
+    <dimen name="abs__search_view_text_min_width">160dip</dimen>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="act_call_avatar_size">150dp</dimen>
+    <dimen name="act_call_end_button_height">50dp</dimen>
+    <dimen name="act_call_end_button_width">200dp</dimen>
+    <dimen name="act_call_margin_top">50dp</dimen>
+    <dimen name="act_call_name_size">25sp</dimen>
+    <dimen name="act_call_video_scr_opponent_height">150dp</dimen>
+    <dimen name="act_call_video_scr_opponent_width">200dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="avatar_border_width">1dp</dimen>
+    <dimen name="avatar_height">70dp</dimen>
+    <dimen name="avatar_width">70dp</dimen>
+    <dimen name="button_fb_height">70dp</dimen>
+    <dimen name="button_height">50dp</dimen>
+    <dimen name="button_icon_margin">10dp</dimen>
+    <dimen name="button_text_size">18sp</dimen>
+    <dimen name="chat_attach_height">200dp</dimen>
+    <dimen name="chat_attach_width">200dp</dimen>
+    <dimen name="chat_babble_margin">30dp</dimen>
+    <dimen name="chat_button_reply_height">30dp</dimen>
+    <dimen name="chat_emoji_item_preview_size">25dp</dimen>
+    <dimen name="chat_emoji_item_size">30dp</dimen>
+    <dimen name="chat_emojis_tab_height">50dp</dimen>
+    <dimen name="chat_input_message_height">50dp</dimen>
+    <dimen name="chat_message_typing_view_height">50dp</dimen>
+    <dimen name="chat_message_typing_view_width">80dp</dimen>
+    <dimen name="chat_text_margin">3dip</dimen>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/build/intermediates/exploded-aar/Mypinkpal_Android/facebook/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <dimen name="com_facebook_loginview_compound_drawable_padding">12dp</dimen>
+    <dimen name="com_facebook_loginview_padding_bottom">12dp</dimen>
+    <dimen name="com_facebook_loginview_padding_left">12dip</dimen>
+    <dimen name="com_facebook_loginview_padding_right">16dp</dimen>
+    <dimen name="com_facebook_loginview_padding_top">12dp</dimen>
+    <dimen name="com_facebook_loginview_text_size">16.0sp</dimen>
+    <dimen name="com_facebook_picker_place_image_size">64dp</dimen>
+    <dimen name="com_facebook_profilepictureview_preset_size_large">180dp</dimen>
+    <dimen name="com_facebook_profilepictureview_preset_size_normal">100dp</dimen>
+    <dimen name="com_facebook_profilepictureview_preset_size_small">50dp</dimen>
+    <dimen name="com_facebook_tooltip_horizontal_padding">10dp</dimen>
+    <dimen name="com_facebook_usersettingsfragment_profile_picture_height">64dp</dimen>
+    <dimen name="com_facebook_usersettingsfragment_profile_picture_width">64dp</dimen>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="comment_image_view">300dip</dimen>
+    <dimen name="corners_big_value">15dp</dimen>
+    <dimen name="corners_middle_value">10dp</dimen>
+    <dimen name="corners_small_value">5dp</dimen>
+    <dimen name="crop_view_height">300dp</dimen>
+    <dimen name="crop_view_width">300dp</dimen>
+    <dimen name="divider_height">1dip</dimen>
+    <dimen name="divider_width">1dip</dimen>
+    <dimen name="dlg_avatar_new_message_wh">30dp</dimen>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/build/intermediates/exploded-aar/Mypinkpal_Android/pullToRefreshLi/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <dimen name="header_footer_left_right_padding">24dp</dimen>
+    <dimen name="header_footer_top_bottom_padding">12dp</dimen>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="image_view_avatar_border_width">1dp</dimen>
+    <dimen name="image_view_big_avatar_layout_height">70dp</dimen>
+    <dimen name="image_view_big_avatar_layout_width">70dp</dimen>
+    <dimen name="image_view_small_avatar_layout_height">53dp</dimen>
+    <dimen name="image_view_small_avatar_layout_width">53dp</dimen>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/build/intermediates/exploded-aar/Mypinkpal_Android/pullToRefreshLi/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <dimen name="indicator_corner_radius">12dp</dimen>
+    <dimen name="indicator_internal_padding">4dp</dimen>
+    <dimen name="indicator_right_padding">10dp</dimen>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="inf_list_item_height">48dp</dimen>
+    <dimen name="keyboard_height">230dip</dimen>
+    <dimen name="list_padding">5dp</dimen>
+    <dimen name="marketplace_image">65dip</dimen>
+    <dimen name="navigation_drawer_width">240dp</dimen>
+    <dimen name="reCHAP_horizontal_margin">20dp</dimen>
+    <dimen name="reCHAP_vertical_margin">20dp</dimen>
+    <dimen name="shadow_width">15dp</dimen>
+    <dimen name="slidingmenu_offset">60dp</dimen>
+    <dimen name="sticker_group_height">35dip</dimen>
+    <dimen name="text_size">18sp</dimen>
+    <dimen name="text_size_small">15sp</dimen>
+    <dimen name="tip_height">250dp</dimen>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/build/intermediates/exploded-aar/Mypinkpal_Android/facebook/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <drawable name="com_facebook_picker_default_separator_color">#33464c59</drawable>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/build/intermediates/exploded-aar/com.actionbarsherlock/actionbarsherlock/4.4.0/res/values/values.xml -->
+    <eat-comment/>
+    <item name="abs__action_menu_divider" type="id"/>
+    <item name="abs__action_menu_presenter" type="id"/>
+    <item name="abs__home" type="id"/>
+    <item name="abs__progress_circular" type="id"/>
+    <item name="abs__progress_horizontal" type="id"/>
+    <item name="abs__up" type="id"/>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/build/intermediates/exploded-aar/Mypinkpal_Android/pullToRefreshLi/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <item name="gridview" type="id"/>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/src/main/res/values/ids.xml -->
+    <eat-comment/>
+    <item name="notification_id" type="id"/>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/build/intermediates/exploded-aar/Mypinkpal_Android/pullToRefreshLi/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <item name="scrollview" type="id"/>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/build/intermediates/exploded-aar/Mypinkpal_Android.libraries.SlidingMenu/library/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <item name="selected_view" type="id"/>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/build/intermediates/exploded-aar/Mypinkpal_Android/pullToRefreshLi/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <item name="webview" type="id"/>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/build/intermediates/exploded-aar/com.actionbarsherlock/actionbarsherlock/4.4.0/res/values/values.xml -->
+    <eat-comment/>
+    <integer name="abs__max_action_buttons">2</integer>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <integer name="num_cols">1</integer>
+    <integer name="sticker_width">240</integer>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/build/intermediates/exploded-aar/com.actionbarsherlock/actionbarsherlock/4.4.0/res/values/values.xml -->
+    <eat-comment/>
+    <string name="abs__action_bar_home_description">Navigate home</string>
+    <string name="abs__action_bar_up_description">Navigate up</string>
+    <string name="abs__action_menu_overflow_description">More options</string>
+    <string name="abs__action_mode_done">Done</string>
+    <string name="abs__activity_chooser_view_see_all">See all...</string>
+    <string name="abs__activitychooserview_choose_application">Choose an application</string>
+    <string name="abs__searchview_description_clear">Clear query</string>
+    <string name="abs__searchview_description_query">Search query</string>
+    <string name="abs__searchview_description_search">Search</string>
+    <string name="abs__searchview_description_submit">Submit query</string>
+    <string name="abs__searchview_description_voice">Voice search</string>
+    <string name="abs__shareactionprovider_share_with">Share with</string>
+    <string name="abs__shareactionprovider_share_with_application">Share with <ns1:g example="Bluetooth" id="application_name">%s</ns1:g></string>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="acb_add_chat_title">Add Chat</string>
+    <string name="acb_add_friend_to_chat_title">Add friend to Chat</string>
+    <string name="acb_chat_attach_title">Add attach</string>
+    <string name="acb_chat_details_title">Chat details</string>
+    <string name="acb_leave_chat_title">Leave Chat</string>
+    <string name="action_about">About</string>
+    <string name="action_settings">Settings</string>
+    <string name="add_friend">Add Friend</string>
+    <string name="age">Age</string>
+    <string name="album">Album</string>
+    <string name="album_comment_privacy">Comment Privacy:</string>
+    <string name="album_comment_privacy_control">Control who can comment on this photo album and any photos associated with it.</string>
+    <string name="album_description">Description:</string>
+    <string name="album_name">Name:</string>
+    <string name="album_privacy">Album(s) Privacy:</string>
+    <string name="album_privacy_control">Control who can see this photo album and any photos associated with it.</string>
+    <string name="all_result_action">All Results</string>
+    <string name="app_id">685351784873219</string>
+    <string name="app_name">Mypinkpal</string>
+    <string name="audio_call_txt">AudioCall</string>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/build/intermediates/exploded-aar/com.google.android.gms/play-services/3.2.65/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="auth_client_needs_enabling_title">
+      An application requires Google Play Services to be enabled.
+  </string>
+    <string name="auth_client_needs_installation_title">
+      An application requires installation of Google Play Services.
+  </string>
+    <string name="auth_client_needs_update_title">
+      An application requires an update for Google Play Services.
+  </string>
+    <string name="auth_client_play_services_err_notification_msg">Google Play services error</string>
+    <string name="auth_client_requested_by_msg">Requested by <ns1:g id="app_name">%1$s</ns1:g></string>
+    <string name="auth_client_using_bad_version_title">
+      An application attempted to use a bad version of Google Play Services.
+  </string>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="basic_info">Basic Info</string>
+    <string name="call_canceled_txt">Call canceled by caller</string>
+    <string name="call_start_txt">Call Start</string>
+    <string name="call_user">call </string>
+    <string name="callin_act_text">Many many many text about user or some other stuff youpta!</string>
+    <string name="calling_dialog_title">Incoming call</string>
+    <string name="calling_dialog_txt">Calling</string>
+    <string name="choose_from_gallery">Choose From Gallery</string>
+    <string name="choose_picture">Please take new photo or choose from gallery</string>
+    <string name="cll_incoming_call_audio">Incoming Call</string>
+    <string name="cll_incoming_call_video">Incoming Video Call</string>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/build/intermediates/exploded-aar/Mypinkpal_Android/facebook/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <string name="com_facebook_choose_friends">Choose Friends</string>
+    <string name="com_facebook_dialogloginactivity_ok_button">OK</string>
+    <string name="com_facebook_internet_permission_error_message">WebView login requires INTERNET permission</string>
+    <string name="com_facebook_internet_permission_error_title">AndroidManifest Error</string>
+    <string name="com_facebook_loading">Loading...</string>
+    <string name="com_facebook_loginview_cancel_action">Cancel</string>
+    <string name="com_facebook_loginview_log_in_button">Log in with Facebook</string>
+    <string name="com_facebook_loginview_log_out_action">Log out</string>
+    <string name="com_facebook_loginview_log_out_button">Log out</string>
+    <string name="com_facebook_loginview_logged_in_as">Logged in as: %1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">Logged in using Facebook</string>
+    <string name="com_facebook_logo_content_description">Facebook Logo</string>
+    <string name="com_facebook_nearby">Nearby</string>
+    <string name="com_facebook_picker_done_button_text">Done</string>
+    <string name="com_facebook_placepicker_subtitle_catetory_only_format">%1$s</string>
+    <string name="com_facebook_placepicker_subtitle_format">%1$s • %2$,d were here</string>
+    <string name="com_facebook_placepicker_subtitle_were_here_only_format">%1$,d were here</string>
+    <string name="com_facebook_requesterror_password_changed">Your Facebook password has changed. Please log into this app again to reconnect your Facebook account.</string>
+    <string name="com_facebook_requesterror_permissions">This app doesn’t have permission to do this. To change permissions, try logging into the app again.</string>
+    <string name="com_facebook_requesterror_reconnect">Please log into this app again to reconnect your Facebook account.</string>
+    <string name="com_facebook_requesterror_relogin">Please log into this app again to reconnect your Facebook account.</string>
+    <string name="com_facebook_requesterror_web_login">Your Facebook account is locked. Please log into www.facebook.com to continue.</string>
+    <string name="com_facebook_tooltip_default">New! You\'re in control - choose what info you want to share with apps.</string>
+    <string name="com_facebook_usersettingsfragment_log_in_button">Log in…</string>
+    <string name="com_facebook_usersettingsfragment_logged_in">Logged in</string>
+    <string name="com_facebook_usersettingsfragment_not_logged_in">Not logged in</string>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="comment">Comment</string>
+    <string name="comments">Comments</string>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/build/intermediates/exploded-aar/com.google.android.gms/play-services/3.2.65/res/values/strings.xml -->
+    <eat-comment/>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable Google Play services</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">This app won\'t work unless you enable Google Play services.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Get Google Play services</string>
+    <string msgid="2122112764540849864" name="common_google_play_services_install_text_phone">This app won\'t run without Google Play services, which are missing from your phone.</string>
+    <string msgid="7351599665250191022" name="common_google_play_services_install_text_tablet">This app won\'t run without Google Play services, which are missing from your tablet.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_invalid_account_text">The specified account does not exist on this device. Please choose a different account.</string>
+    <string name="common_google_play_services_invalid_account_title">Invalid Account</string>
+    <string name="common_google_play_services_network_error_text">A data connection is required to connect to Google Play services.</string>
+    <string name="common_google_play_services_network_error_title">Network Error</string>
+    <string name="common_google_play_services_unknown_issue">Unknown issue with Google Play services.</string>
+    <string name="common_google_play_services_unsupported_text">Google Play services, which some of your applications rely on, is not supported by your device. Please contact the manufacturer for assistance.</string>
+    <string name="common_google_play_services_unsupported_title">Google Play services</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Update</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">This app won\'t run unless you update Google Play services.</string>
+    <string msgid="1788179980625863495" name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_signin_button_text">Sign in</string>
+    <string name="common_signin_button_text_long">Sign in with Google</string>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="compose">Compose</string>
+    <string name="confirm_request">Confirm</string>
+    <string name="create_user1">Create first user !!!</string>
+    <string name="create_user2">Create second user !!!</string>
+    <string name="dashboard">Dashboard</string>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/build/intermediates/exploded-aar/Mypinkpal_Android/appRater/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <string name="dialog_title">Rate %s</string>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/build/intermediates/exploded-aar/Mypinkpal_Android/Q-municate_core/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <string name="dlg_attached_last_message">Attachment</string>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="dlg_cancel">Cancel</string>
+    <string name="dlg_click_back_again">Please click BACK again to exit</string>
+    <string name="dlg_confirm">Are you sure?</string>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/build/intermediates/exploded-aar/Mypinkpal_Android/Q-municate_core/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <string name="dlg_fail_connection">Sorry, connection lost. It will be reestablished when the Internet will be available.</string>
+    <string name="dlg_fail_create_chat">Errors occurred while creating chat! Please, try later</string>
+    <string name="dlg_fail_create_groupchat">Errors occurred while creating group chat! Please, try later</string>
+    <string name="dlg_fail_send_msg">Errors occurred while sending msg! Please, try later</string>
+    <string name="dlg_fail_upload_attach">Errors occurred during loading file</string>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="dlg_force_relogin_on_token_required">Token error is occured in application. Relogin will be executed now</string>
+    <string name="dlg_hint_message">Type a message</string>
+    <string name="dlg_leave_group">Leave Group</string>
+    <string name="dlg_microphone_muted">Please, pay attention microphone is muted now</string>
+    <string name="dlg_no_chats">Please wait</string>
+    <string name="dlg_no_friends">No friends</string>
+    <string name="dlg_no_friends_selected">Please, select some Friends for invite!</string>
+    <string name="dlg_not_all_fields_entered">Please fill all empty input fields</string>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/build/intermediates/exploded-aar/Mypinkpal_Android/Q-municate_core/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <string name="dlg_not_joined_room">You have not joined chat room! Please wait…</string>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="dlg_offline_call"> %1$s is calling you !</string>
+    <string name="dlg_ok">OK</string>
+    <string name="dlg_old_password_wrong">Wrong old password</string>
+    <string name="dlg_refresh_session">QB Session expired. Update session will be executed now</string>
+    <string name="dlg_reply">Reply</string>
+    <string name="dlg_success_request_facebook">Request sent</string>
+    <string name="dlg_user_is_not_friend">User is not your friend</string>
+    <string name="dlg_wait_please">Please, wait</string>
+    <string name="dlg_wrong_signaling">Can\'t perform call. Problem with signaling</string>
+    <string name="email">Email</string>
+    <string name="error">ERROR</string>
+    <string name="error_playing_ringtone">Error during playing ringtone</string>
+    <string name="everyone">Everyone</string>
+    <string name="fdb_choose_email_provider">Choose an email provider:</string>
+    <string name="fdb_support_email">q-municate@quickblox.com</string>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/build/intermediates/exploded-aar/Mypinkpal_Android/Q-municate_core/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <string name="file_was_attached">file was attached</string>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="fill_email_pass">Please fill email &amp; password</string>
+    <string name="frd_audio_call">Audio Call</string>
+    <string name="frd_video_call">Video Call</string>
+    <string name="friend">Friend</string>
+    <string name="friend_of_friends">Friend of Friends</string>
+    <string name="friend_wall">On your friend wall</string>
+    <string name="friends">Friends</string>
+    <string name="frl_dlg_reject_friend">Do you really want to reject contact  request from %1$s?</string>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/build/intermediates/exploded-aar/Mypinkpal_Android/Q-municate_core/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <string name="frl_friends_contact_request">Contact request </string>
+    <string name="frl_friends_request_accept_message_for_friend">User has accepted your contact request</string>
+    <string name="frl_friends_request_accept_message_for_me">You have accepted a request </string>
+    <string name="frl_friends_request_message_for_friend">User has sent a request to you </string>
+    <string name="frl_friends_request_message_for_me">Your request has been sent </string>
+    <string name="frl_friends_request_reject_message_for_friend">Your request has been rejected </string>
+    <string name="frl_friends_request_reject_message_for_me">You have rejected a request</string>
+    <string name="frl_friends_request_remove_message_for_friend">User has deleted you from contacts </string>
+    <string name="frl_friends_request_remove_message_for_me">User has been deleted from your contacts </string>
+    <string name="frl_offline">Offline</string>
+    <string name="frl_online">Online</string>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/src/main/res/values/analytics.xml -->
+    <eat-comment/>
+    <string name="ga_trackingId">UA-51359202-2</string>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="gdd_all_friends_is_in_group">You can\'t add new friend, because all existing friends are added in this group chat</string>
+    <string name="gdd_name_not_entered">Please fill group name</string>
+    <string name="gdd_online_participants">%1$d/%2$d online</string>
+    <string name="gdd_participants">%1$d participants</string>
+    <string name="gdd_title">Group Details</string>
+    <string name="gender">Gender</string>
+    <string name="google_maps_key">AIzaSyD1QQb5NqXGzxPBUsbeC5AjR8Z9qhoAduc</string>
+    <string name="imageView">Image</string>
+    <string name="inf_body_of_invitation">Dear friend, use Mypinkpal application to reach me!\nDownload it here: http://mypinkpal.com/</string>
+    <string name="inf_choose_email_provider">Choose an email provider:</string>
+    <string name="inf_fb_request_canceled">Request cancelled</string>
+    <string name="inf_fb_wall_param_description">Dear friend, use Mypinkpal application to reach me!\nDownload it here: http://mypinkpal.com/</string>
+    <string name="inf_fb_wall_param_link">http://mypinkpal.com/</string>
+    <string name="inf_fb_wall_param_name">Mypinkpal</string>
+    <string name="inf_fb_wall_param_picture">http://mypinkpal.com/theme/frontend/mypinkpal/style/mypinkpal/image/layout/xlogo.png.pagespeed.ic.7uWEU7sP8z.png</string>
+    <string name="inf_fb_wall_param_place">685351784873219</string>
+    <string name="inf_from_contacts">(invite via Email)</string>
+    <string name="inf_from_facebook">(invite via Facebook)</string>
+    <string name="inf_header_label">Let your other friends know about \n Mypinkpal by sending them private invitations</string>
+    <string name="inf_select_from_contacts">From Contacts</string>
+    <string name="inf_select_from_facebook">From Facebook</string>
+    <string name="inf_send">Send</string>
+    <string name="inf_subject_of_invitation">Mypinkpal</string>
+    <string name="inf_url_to_facebook_avatar">https://graph.facebook.com/%1$s/picture?type=large</string>
+    <string name="instruction">  Enter the words above</string>
+    <string name="last_login">Last Login</string>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/build/intermediates/exploded-aar/Mypinkpal_Android/appRater/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <string name="later">Later</string>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="like">Like</string>
+    <string name="likes">Likes</string>
+    <string name="load_previous_comment">Load Previous Comment</string>
+    <string name="location">Location</string>
+    <string name="log_out">Log out</string>
+    <string name="login">Log In</string>
+    <string name="login_by_first_user">Login as the first user</string>
+    <string name="login_by_second_user">Login as the second user</string>
+    <string name="login_facebook">Connecting to Facebook</string>
+    <string name="login_facebook_failed">Log in With Facebook failed!</string>
+    <string name="login_screen_title">Login as a User1 on the 1st device and as a User2 on the second device</string>
+    <string name="member_action">Member</string>
+    <string name="member_since">Member Since</string>
+    <string name="membership">Membership</string>
+    <string name="message">Message</string>
+    <string name="middot">·</string>
+    <string name="mutual_friend_text">mutual friend</string>
+    <string name="mutual_friends_text">mutual friends</string>
+    <string name="ndl_ac_mode_title">Group chat participants:</string>
+    <string name="ndl_no_friends_for_new_chat">You don\'t have any Friends for creating New Chat</string>
+    <string name="new_message">New Message</string>
+    <string name="noTitle"/>
+    <string name="no_albums">No albums found here</string>
+    <string name="no_internet_connection_content">The internet connection appears to be offline.</string>
+    <string name="no_internet_connection_title">Uh oh, there was a problem</string>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/build/intermediates/exploded-aar/Mypinkpal_Android/appRater/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <string name="no_thanks">No thanks</string>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="not_find_chat_server">Not found chat server</string>
+    <string name="not_now">Not Now</string>
+    <string name="notice_no_dashboard">There are no new feeds to view at this time</string>
+    <string name="notification">Notification</string>
+    <string name="nvd_title_chats">Chats</string>
+    <string name="nvd_title_invite_friends">Invite Friends</string>
+    <string name="ok">OK</string>
+    <string name="only_me">Only me</string>
+    <string name="password">Password</string>
+    <string name="photo">Photo</string>
+    <string name="play">Play</string>
+    <string name="please_wait">Please wait</string>
+    <string name="post_comment">Post</string>
+    <string name="post_status">Post Status</string>
+    <string name="press_again_for_exit">Press again for exit</string>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/build/intermediates/exploded-aar/Mypinkpal_Android/pullToRefreshLi/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <string name="pull_to_refresh_from_bottom_pull_label">@string/pull_to_refresh_pull_label</string>
+    <string name="pull_to_refresh_from_bottom_refreshing_label">@string/pull_to_refresh_refreshing_label</string>
+    <string name="pull_to_refresh_from_bottom_release_label">@string/pull_to_refresh_release_label</string>
+    <string name="pull_to_refresh_pull_label">Pull to refresh…</string>
+    <string name="pull_to_refresh_refreshing_label">Loading…</string>
+    <string name="pull_to_refresh_release_label">Release to refresh…</string>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="push_title">QMUN: Missed messages</string>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/build/intermediates/exploded-aar/Mypinkpal_Android/appRater/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <string name="rate">Rate Now</string>
+    <string name="rate_message">If you enjoy using this app, please take a moment to rate it. Thanks for your support!</string>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="reload">Reload</string>
+    <string name="rss_subcribers">RSS Subscribers</string>
+    <string name="search">Search …</string>
+    <string name="second_ago">1 seconds ago</string>
+    <string name="send">Send</string>
+    <string name="send_a_message">Send a message</string>
+    <string name="send_message">Send a message</string>
+    <string name="session_opened">Session is opened</string>
+    <string name="share">Share</string>
+    <string name="share_photo_feed">shared a photo</string>
+    <string name="shared">shared …</string>
+    <string name="show_error">Failed to show CAPTCHA</string>
+    <string name="signup">Sign Up for Mypinkpal</string>
+    <string name="start_chat">start chat</string>
+    <string name="status">Status</string>
+    <string name="subject">Subject</string>
+    <string name="take_photo">Take New Photo</string>
+    <string name="title_activity_album_photo">Select an Album</string>
+    <string name="title_activity_confirm_request">Confirm Request</string>
+    <string name="title_activity_create_album_photo">Create a New Photo Album</string>
+    <string name="title_activity_profile_pic">Edit Profile Picture</string>
+    <string name="to">To: </string>
+    <string name="unlike">Unlike</string>
+    <string name="upload">Upload</string>
+    <string name="upload_albums">Upload Album</string>
+    <string name="user_created">The User have been created</string>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/build/intermediates/exploded-aar/Mypinkpal_Android/Q-municate_core/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <string name="user_created_room">%1$s created group chat</string>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="verification_failed">You did not enter the CAPTCHA phrase correctly</string>
+    <string name="verification_success">Your answer is verified successfully</string>
+    <string name="verify">Verify</string>
+    <string name="video_call_txt">VideoCall</string>
+    <string name="videochat_init_fail">Unfortunately, call was closed! It is impossible to initialize multimedia resources on your device</string>
+    <string name="view_all_photo">Recent Photo</string>
+    <string name="view_all_photo_click">Touch here to view all photo</string>
+    <string name="view_profile">View Profile</string>
+    <string name="write_comment">Write a comment …</string>
+    <string name="write_message">Write a message …</string>
+    <string name="your_wall">On your wall</string>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="AvatarImageView">
+        <item name="android:layout_width">@dimen/image_view_big_avatar_layout_width</item>
+        <item name="android:layout_height">@dimen/image_view_big_avatar_layout_height</item>
+        <item name="android:layout_gravity">center|top</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:src">@drawable/placeholder_user</item>
+    </style>
+    <style name="ButtonNormalText" parent="@android:style/Widget.Button">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:height">44dip</item>
+        <item name="android:background">@drawable/status_bg</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="ButtonNormalTextWithIcon" parent="ButtonNormalText">
+        <item name="android:drawableLeft">@drawable/status_icon</item>
+    </style>
+    <style name="EmojiTabImageButton" parent="android:Widget.ImageButton">
+        <item name="android:background">@drawable/tab_emoji_selector</item>
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/src/main/res/values/themes.xml.xml -->
+    <eat-comment/>
+    <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">#0084c9</item>
+    </style>
+    <style name="MyTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/build/intermediates/exploded-aar/com.actionbarsherlock/actionbarsherlock/4.4.0/res/values/values.xml -->
+    <eat-comment/>
+    <style name="Sherlock.__TextAppearance.Small" parent="Widget">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="Sherlock.__Theme" parent="android:Theme.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="Sherlock.__Theme.DarkActionBar" parent="Theme.Sherlock.Light"/>
+    <style name="Sherlock.__Theme.Light" parent="android:Theme.Light.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="Sherlock.__Widget.ActionBar" parent="Widget">
+        <item name="displayOptions">useLogo|showHome|showTitle</item>
+        <item name="height">?attr/actionBarSize</item>
+        <item name="android:paddingLeft">0dip</item>
+        <item name="android:paddingTop">0dip</item>
+        <item name="android:paddingRight">0dip</item>
+        <item name="android:paddingBottom">0dip</item>
+        <item name="homeLayout">@layout/abs__action_bar_home</item>
+    </style>
+    <style name="Sherlock.__Widget.ActionMode" parent="Widget">
+        <item name="background">?attr/actionModeBackground</item>
+        <item name="backgroundSplit">?attr/actionModeSplitBackground</item>
+        <item name="height">?attr/actionBarSize</item>
+    </style>
+    <style name="Sherlock.__Widget.ActivityChooserView" parent="Widget">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/abs__ab_share_pack_holo_dark</item>
+        <item name="android:divider">?attr/dividerVertical</item>
+        <item name="android:showDividers">middle</item>
+        <item name="android:dividerPadding">6dip</item>
+        <item name="android:minHeight">?attr/actionBarSize</item>
+    </style>
+    <style name="Sherlock.__Widget.Holo.DropDownItem" parent="Widget">
+        <item name="android:textAppearance">@style/TextAppearance.Sherlock.Widget.DropDownItem</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="Sherlock.__Widget.Holo.ListView" parent="android:Widget.ListView">
+        <item name="android:divider">@drawable/abs__list_divider_holo_dark</item>
+        <item name="android:listSelector">@drawable/abs__list_selector_holo_dark</item>
+    </style>
+    <style name="Sherlock.__Widget.Holo.Spinner" parent="Widget">
+        <item name="android:dropDownSelector">@drawable/abs__list_selector_holo_dark</item>
+        <item name="android:popupBackground">@drawable/abs__menu_dropdown_panel_holo_dark</item>
+        <item name="android:dropDownVerticalOffset">0dip</item>
+        <item name="android:dropDownHorizontalOffset">0dip</item>
+        <item name="android:dropDownWidth">wrap_content</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:spinnerMode">dropdown</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="Sherlock.__Widget.SearchAutoCompleteTextView" parent="Widget">
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMediumInverse</item>
+        <item name="android:textColor">?attr/textColorPrimary</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:completionHintView">@layout/abs__simple_dropdown_hint</item>
+        <item name="android:completionThreshold">2</item>
+        <item name="android:dropDownWidth">wrap_content</item>
+    </style>
+    <style name="TextAppearance.Sherlock" parent="@android:style/TextAppearance"/>
+    <style name="TextAppearance.Sherlock.Light.SearchResult" parent="TextAppearance.Sherlock.SearchResult"/>
+    <style name="TextAppearance.Sherlock.Light.SearchResult.Subtitle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Light.SearchResult.Title">
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Light.Small" parent="TextAppearance.Sherlock.Small"/>
+    <style name="TextAppearance.Sherlock.Light.Widget.PopupMenu.Large" parent="TextAppearance.Sherlock.Widget.PopupMenu.Large"/>
+    <style name="TextAppearance.Sherlock.Light.Widget.PopupMenu.Small" parent="TextAppearance.Sherlock.Widget.PopupMenu.Small"/>
+    <style name="TextAppearance.Sherlock.SearchResult">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textColorHint">?android:attr/textColorHint</item>
+    </style>
+    <style name="TextAppearance.Sherlock.SearchResult.Subtitle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.Sherlock.SearchResult.Title">
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Small" parent="Sherlock.__TextAppearance.Small"/>
+    <style name="TextAppearance.Sherlock.Widget.ActionBar.Menu" parent="Widget">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?attr/actionMenuTextColor</item>
+        <item name="android:textAllCaps">@bool/abs__config_actionMenuItemAllCaps</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.ActionBar.Subtitle" parent="Widget">
+        <item name="android:textSize">@dimen/abs__action_bar_subtitle_text_size</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.ActionBar.Subtitle.Inverse" parent="Widget">
+        <item name="android:textSize">@dimen/abs__action_bar_subtitle_text_size</item>
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.ActionBar.Title" parent="Widget">
+        <item name="android:textSize">@dimen/abs__action_bar_title_text_size</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.ActionBar.Title.Inverse" parent="Widget">
+        <item name="android:textSize">@dimen/abs__action_bar_title_text_size</item>
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.ActionMode.Subtitle" parent="Widget">
+        <item name="android:textSize">@dimen/abs__action_bar_subtitle_text_size</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.ActionMode.Subtitle.Inverse" parent="Widget">
+        <item name="android:textSize">@dimen/abs__action_bar_subtitle_text_size</item>
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.ActionMode.Title" parent="Widget">
+        <item name="android:textSize">@dimen/abs__action_bar_title_text_size</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.ActionMode.Title.Inverse" parent="Widget">
+        <item name="android:textSize">@dimen/abs__action_bar_title_text_size</item>
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.DropDownHint" parent="Widget">
+        <item name="android:textColor">?textColorPrimary</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.DropDownItem" parent="Widget">
+        <item name="android:textColor">?textColorPrimaryDisableOnly</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.PopupMenu" parent="Widget">
+        <item name="android:textColor">?attr/textColorPrimary</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.PopupMenu.Large">
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.PopupMenu.Small">
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.TextView.SpinnerItem" parent="Widget">
+        <item name="android:textColor">?textColorPrimary</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="Theme.Sherlock" parent="Sherlock.__Theme">
+
+        <!-- Action bar styles (from Theme.Holo) -->
+        <item name="actionDropDownStyle">@style/Widget.Sherlock.Spinner.DropDown.ActionBar</item>
+        <item name="actionButtonStyle">@style/Widget.Sherlock.ActionButton</item>
+        <item name="actionOverflowButtonStyle">@style/Widget.Sherlock.ActionButton.Overflow</item>
+        <item name="actionModeBackground">@drawable/abs__cab_background_top_holo_dark</item>
+        <item name="actionModeSplitBackground">@drawable/abs__cab_background_bottom_holo_dark</item>
+        <item name="actionModeCloseDrawable">@drawable/abs__ic_cab_done_holo_dark</item>
+        <item name="actionBarTabStyle">@style/Widget.Sherlock.ActionBar.TabView</item>
+        <item name="actionBarTabBarStyle">@style/Widget.Sherlock.ActionBar.TabBar</item>
+        <item name="actionBarTabTextStyle">@style/Widget.Sherlock.ActionBar.TabText</item>
+        <item name="actionModeStyle">@style/Widget.Sherlock.ActionMode</item>
+        <item name="actionModeCloseButtonStyle">@style/Widget.Sherlock.ActionButton.CloseMode</item>
+        <item name="actionBarStyle">@style/Widget.Sherlock.ActionBar</item>
+        <item name="actionBarSize">@dimen/abs__action_bar_default_height</item>
+        <!-- Internal -->
+        <item name="actionModePopupWindowStyle">@style/Widget.Sherlock.PopupWindow.ActionMode</item>
+        <item name="actionBarWidgetTheme">@null</item>
+
+        <!-- Action bar styles (defaults from Theme) -->
+        <item name="actionBarSplitStyle">?attr/actionBarStyle</item>
+        <item name="actionMenuTextAppearance">@style/TextAppearance.Sherlock.Widget.ActionBar.Menu</item>
+        <item name="actionMenuTextColor">?attr/textColorPrimary</item>
+        <item name="actionBarDivider">?attr/dividerVertical</item>
+        <item name="actionBarItemBackground">?attr/selectableItemBackground</item>
+        <item name="buttonStyleSmall">@style/Widget.Sherlock.Button.Small</item>
+        <item name="selectableItemBackground">@drawable/abs__item_background_holo_dark</item>
+        <item name="activatedBackgroundIndicator">@drawable/abs__activated_background_holo_dark</item>
+        <item name="actionModeShareDrawable">@drawable/abs__ic_menu_share_holo_dark</item>
+        <item name="activityChooserViewStyle">@style/Widget.Sherlock.ActivityChooserView</item>
+        <item name="homeAsUpIndicator">@drawable/abs__ic_ab_back_holo_dark</item>
+        <item name="dividerVertical">@drawable/abs__list_divider_holo_dark</item>
+        <item name="spinnerDropDownItemStyle">@style/Widget.Sherlock.DropDownItem.Spinner</item>
+        <item name="spinnerItemStyle">@style/Widget.Sherlock.TextView.SpinnerItem</item>
+        <item name="textColorPrimary">@color/abs__primary_text_holo_dark</item>
+        <item name="textColorPrimaryDisableOnly">@color/abs__primary_text_disable_only_holo_dark</item>
+        <item name="textColorPrimaryInverse">@color/abs__primary_text_holo_light</item>
+
+        <!-- Internal -->
+        <item name="dropdownListPreferredItemHeight">48dip</item>
+        <item name="dropDownListViewStyle">@style/Widget.Sherlock.ListView.DropDown</item>
+        <item name="textAppearanceSmall">@style/TextAppearance.Sherlock.Small</item>
+        <item name="textAppearanceLargePopupMenu">@style/TextAppearance.Sherlock.Widget.PopupMenu.Large</item>
+        <item name="textAppearanceSmallPopupMenu">@style/TextAppearance.Sherlock.Widget.PopupMenu.Small</item>
+        <item name="textAppearanceSearchResultTitle">@style/TextAppearance.Sherlock.SearchResult.Title</item>
+        <item name="textAppearanceSearchResultSubtitle">@style/TextAppearance.Sherlock.SearchResult.Subtitle</item>
+        <item name="popupMenuStyle">@style/Widget.Sherlock.PopupMenu</item>
+        <!-- Internal -->
+        <item name="listPopupWindowStyle">@style/Widget.Sherlock.ListPopupWindow</item>
+        <item name="searchDropdownBackground">@drawable/abs__search_dropdown_dark</item>
+        <item name="searchViewTextField">@drawable/abs__textfield_searchview_holo_dark</item>
+        <item name="searchViewTextFieldRight">@drawable/abs__textfield_searchview_right_holo_dark</item>
+        <item name="searchViewCloseIcon">@drawable/abs__ic_clear</item>
+        <item name="searchViewSearchIcon">@drawable/abs__ic_search</item>
+        <item name="searchViewGoIcon">@drawable/abs__ic_go</item>
+        <item name="searchViewVoiceIcon">@drawable/abs__ic_voice_search</item>
+        <item name="searchAutoCompleteTextView">@style/Widget.Sherlock.SearchAutoCompleteTextView</item>
+        <item name="dropDownHintAppearance">@style/TextAppearance.Sherlock.Widget.DropDownHint</item>
+        <item name="searchViewEditQuery">@drawable/abs__ic_commit_search_api_holo_dark</item>
+        <item name="searchViewEditQueryBackground">?selectableItemBackground</item>
+        <item name="searchResultListItemHeight">58dp</item>
+        <item name="windowNoTitle">false</item>
+        <item name="windowActionBar">true</item>
+        <item name="windowActionModeOverlay">false</item>
+        <item name="windowContentOverlay">@null</item>
+    </style>
+    <style name="Theme.Sherlock.Light" parent="Sherlock.__Theme.Light">
+
+        <!-- Action bar styles (from Theme.Holo) -->
+        <item name="actionDropDownStyle">@style/Widget.Sherlock.Light.Spinner.DropDown.ActionBar</item>
+        <item name="actionButtonStyle">@style/Widget.Sherlock.Light.ActionButton</item>
+        <item name="actionOverflowButtonStyle">@style/Widget.Sherlock.Light.ActionButton.Overflow</item>
+        <item name="actionModeBackground">@drawable/abs__cab_background_top_holo_light</item>
+        <item name="actionModeSplitBackground">@drawable/abs__cab_background_bottom_holo_light</item>
+        <item name="actionModeCloseDrawable">@drawable/abs__ic_cab_done_holo_light</item>
+        <item name="actionBarTabStyle">@style/Widget.Sherlock.Light.ActionBar.TabView</item>
+        <item name="actionBarTabBarStyle">@style/Widget.Sherlock.Light.ActionBar.TabBar</item>
+        <item name="actionBarTabTextStyle">@style/Widget.Sherlock.Light.ActionBar.TabText</item>
+        <item name="actionModeStyle">@style/Widget.Sherlock.Light.ActionMode</item>
+        <item name="actionModeCloseButtonStyle">@style/Widget.Sherlock.Light.ActionButton.CloseMode</item>
+        <item name="actionBarStyle">@style/Widget.Sherlock.Light.ActionBar.Solid</item>
+        <item name="actionBarSize">@dimen/abs__action_bar_default_height</item>
+        <!-- Internal -->
+        <item name="actionModePopupWindowStyle">@style/Widget.Sherlock.Light.PopupWindow.ActionMode</item>
+        <item name="actionBarWidgetTheme">@null</item>
+
+        <!-- Action bar styles (defaults from Theme) -->
+        <item name="actionBarSplitStyle">?attr/actionBarStyle</item>
+        <item name="actionMenuTextAppearance">@style/TextAppearance.Sherlock.Widget.ActionBar.Menu</item>
+        <item name="actionMenuTextColor">?attr/textColorPrimary</item>
+        <item name="actionBarDivider">?attr/dividerVertical</item>
+        <item name="actionBarItemBackground">?attr/selectableItemBackground</item>
+        <item name="buttonStyleSmall">@style/Widget.Sherlock.Light.Button.Small</item>
+        <item name="selectableItemBackground">@drawable/abs__item_background_holo_light</item>
+        <item name="activatedBackgroundIndicator">@drawable/abs__activated_background_holo_light</item>
+        <item name="actionModeShareDrawable">@drawable/abs__ic_menu_share_holo_light</item>
+        <item name="activityChooserViewStyle">@style/Widget.Sherlock.Light.ActivityChooserView</item>
+        <item name="homeAsUpIndicator">@drawable/abs__ic_ab_back_holo_light</item>
+        <item name="dividerVertical">@drawable/abs__list_divider_holo_light</item>
+        <item name="spinnerDropDownItemStyle">@style/Widget.Sherlock.Light.DropDownItem.Spinner</item>
+        <item name="spinnerItemStyle">@style/Widget.Sherlock.TextView.SpinnerItem</item>
+        <item name="textColorPrimary">@color/abs__primary_text_holo_light</item>
+        <item name="textColorPrimaryDisableOnly">@color/abs__primary_text_disable_only_holo_light</item>
+        <item name="textColorPrimaryInverse">@color/abs__primary_text_holo_dark</item>
+
+        <!-- Internal -->
+        <item name="dropdownListPreferredItemHeight">48dip</item>
+        <item name="dropDownListViewStyle">@style/Widget.Sherlock.Light.ListView.DropDown</item>
+        <item name="textAppearanceSmall">@style/TextAppearance.Sherlock.Light.Small</item>
+        <item name="textAppearanceLargePopupMenu">@style/TextAppearance.Sherlock.Light.Widget.PopupMenu.Large</item>
+        <item name="textAppearanceSmallPopupMenu">@style/TextAppearance.Sherlock.Light.Widget.PopupMenu.Small</item>
+        <item name="textAppearanceSearchResultTitle">@style/TextAppearance.Sherlock.Light.SearchResult.Title</item>
+        <item name="textAppearanceSearchResultSubtitle">@style/TextAppearance.Sherlock.Light.SearchResult.Subtitle</item>
+        <item name="popupMenuStyle">@style/Widget.Sherlock.Light.PopupMenu</item>
+        <!-- Internal -->
+        <item name="listPopupWindowStyle">@style/Widget.Sherlock.Light.ListPopupWindow</item>
+        <item name="searchDropdownBackground">@drawable/abs__search_dropdown_light</item>
+        <item name="searchViewTextField">@drawable/abs__textfield_searchview_holo_light</item>
+        <item name="searchViewTextFieldRight">@drawable/abs__textfield_searchview_right_holo_light</item>
+        <item name="searchViewCloseIcon">@drawable/abs__ic_clear_holo_light</item>
+        <item name="searchViewSearchIcon">@drawable/abs__ic_search_api_holo_light</item>
+        <item name="searchViewGoIcon">@drawable/abs__ic_go_search_api_holo_light</item>
+        <item name="searchViewVoiceIcon">@drawable/abs__ic_voice_search_api_holo_light</item>
+        <item name="searchAutoCompleteTextView">@style/Widget.Sherlock.Light.SearchAutoCompleteTextView</item>
+        <item name="dropDownHintAppearance">@style/TextAppearance.Sherlock.Widget.DropDownHint</item>
+        <item name="searchViewEditQuery">@drawable/abs__ic_commit_search_api_holo_light</item>
+        <item name="searchViewEditQueryBackground">?selectableItemBackground</item>
+        <item name="searchResultListItemHeight">58dp</item>
+        <item name="windowNoTitle">false</item>
+        <item name="windowActionBar">true</item>
+        <item name="windowActionModeOverlay">false</item>
+        <item name="windowContentOverlay">@null</item>
+    </style>
+    <style name="Theme.Sherlock.Light.DarkActionBar" parent="Sherlock.__Theme.DarkActionBar">
+        <item name="windowContentOverlay">@drawable/abs__ab_solid_shadow_holo</item>
+        <item name="actionBarStyle">@style/Widget.Sherlock.Light.ActionBar.Solid.Inverse</item>
+        <item name="actionBarWidgetTheme">@style/Theme.Sherlock</item>
+        <item name="actionDropDownStyle">@style/Widget.Sherlock.Spinner.DropDown.ActionBar</item>
+        <item name="actionButtonStyle">@style/Widget.Sherlock.ActionButton</item>
+        <item name="actionOverflowButtonStyle">@style/Widget.Sherlock.ActionButton.Overflow</item>
+        <item name="actionModeBackground">@drawable/abs__cab_background_top_holo_dark</item>
+        <item name="actionModeSplitBackground">@drawable/abs__cab_background_bottom_holo_dark</item>
+        <item name="actionModeCloseDrawable">@drawable/abs__ic_cab_done_holo_dark</item>
+        <item name="homeAsUpIndicator">@drawable/abs__ic_ab_back_holo_dark</item>
+        <item name="actionBarTabStyle">@style/Widget.Sherlock.Light.ActionBar.TabView.Inverse</item>
+        <item name="actionBarTabBarStyle">@style/Widget.Sherlock.Light.ActionBar.TabBar.Inverse</item>
+        <item name="actionBarTabTextStyle">@style/Widget.Sherlock.Light.ActionBar.TabText.Inverse</item>
+        <item name="actionBarDivider">@drawable/abs__list_divider_holo_dark</item>
+        <item name="actionBarItemBackground">@drawable/abs__item_background_holo_dark</item>
+        <item name="actionMenuTextColor">?attr/textColorPrimaryInverse</item>
+        <item name="actionModeStyle">@style/Widget.Sherlock.Light.ActionMode.Inverse</item>
+        <item name="actionModeCloseButtonStyle">@style/Widget.Sherlock.ActionButton.CloseMode</item>
+        <item name="actionModePopupWindowStyle">@style/Widget.Sherlock.PopupWindow.ActionMode</item>
+        <item name="actionModeShareDrawable">@drawable/abs__ic_menu_share_holo_dark</item>
+
+        <!-- We want the dark action bar SearchView stuff -->
+        <item name="searchDropdownBackground">@drawable/abs__search_dropdown_dark</item>
+        <item name="searchViewTextField">@drawable/abs__textfield_searchview_holo_dark</item>
+        <item name="searchViewTextFieldRight">@drawable/abs__textfield_searchview_right_holo_dark</item>
+        <item name="searchViewCloseIcon">@drawable/abs__ic_clear</item>
+        <item name="searchViewSearchIcon">@drawable/abs__ic_search</item>
+        <item name="searchViewGoIcon">@drawable/abs__ic_go</item>
+        <item name="searchViewVoiceIcon">@drawable/abs__ic_voice_search</item>
+        <item name="searchAutoCompleteTextView">@style/Widget.Sherlock.SearchAutoCompleteTextView</item>
+        <item name="dropDownHintAppearance">@style/TextAppearance.Sherlock.Widget.DropDownHint</item>
+        <item name="searchViewEditQuery">@drawable/abs__ic_commit_search_api_holo_dark</item>
+    </style>
+    <style name="Theme.Sherlock.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Sherlock.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Widget"/>
+    <style name="Widget.Sherlock.ActionBar" parent="Sherlock.__Widget.ActionBar">
+        <item name="titleTextStyle">@style/TextAppearance.Sherlock.Widget.ActionBar.Title</item>
+        <item name="subtitleTextStyle">@style/TextAppearance.Sherlock.Widget.ActionBar.Subtitle</item>
+        <item name="background">@drawable/abs__ab_transparent_dark_holo</item>
+        <item name="backgroundStacked">@drawable/abs__ab_stacked_transparent_dark_holo</item>
+        <item name="backgroundSplit">@drawable/abs__ab_bottom_transparent_dark_holo</item>
+        <item name="divider">?attr/dividerVertical</item>
+        <item name="progressBarStyle">@style/Widget.Sherlock.ProgressBar.Horizontal</item>
+        <item name="indeterminateProgressStyle">@style/Widget.Sherlock.ProgressBar</item>
+        <item name="progressBarPadding">32dip</item>
+        <item name="itemPadding">8dip</item>
+    </style>
+    <style name="Widget.Sherlock.ActionBar.Solid" parent="Sherlock.__Widget.ActionBar">
+        <item name="titleTextStyle">@style/TextAppearance.Sherlock.Widget.ActionBar.Title</item>
+        <item name="subtitleTextStyle">@style/TextAppearance.Sherlock.Widget.ActionBar.Subtitle</item>
+        <item name="background">@drawable/abs__ab_solid_dark_holo</item>
+        <item name="backgroundStacked">@drawable/abs__ab_stacked_solid_dark_holo</item>
+        <item name="backgroundSplit">@drawable/abs__ab_bottom_solid_dark_holo</item>
+        <item name="divider">?attr/dividerVertical</item>
+        <item name="progressBarStyle">@style/Widget.Sherlock.ProgressBar.Horizontal</item>
+        <item name="indeterminateProgressStyle">@style/Widget.Sherlock.ProgressBar</item>
+        <item name="progressBarPadding">32dip</item>
+        <item name="itemPadding">8dip</item>
+    </style>
+    <style name="Widget.Sherlock.ActionBar.TabBar" parent="Widget">
+        <item name="android:divider">?attr/actionBarDivider</item>
+        <item name="android:showDividers">middle</item>
+        <item name="android:dividerPadding">12dip</item>
+    </style>
+    <style name="Widget.Sherlock.ActionBar.TabText" parent="Widget">
+        <item name="android:textAppearance">@null</item>
+        <item name="android:textColor">?attr/textColorPrimary</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:maxLines">2</item>
+    </style>
+    <style name="Widget.Sherlock.ActionBar.TabView" parent="Widget">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">@drawable/abs__tab_indicator_ab_holo</item>
+        <item name="android:paddingLeft">16dip</item>
+        <item name="android:paddingRight">16dip</item>
+    </style>
+    <style name="Widget.Sherlock.ActionButton" parent="Widget">
+        <item name="android:background">?attr/actionBarItemBackground</item>
+        <item name="android:minHeight">?attr/actionBarSize</item>
+        <item name="android:minWidth">@dimen/abs__action_button_min_width</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">12dip</item>
+        <item name="android:paddingRight">12dip</item>
+        <item name="android:scaleType">center</item>
+    </style>
+    <style name="Widget.Sherlock.ActionButton.CloseMode">
+        <item name="android:background">@drawable/abs__btn_cab_done_holo_dark</item>
+    </style>
+    <style name="Widget.Sherlock.ActionButton.Overflow">
+        <item name="android:src">@drawable/abs__ic_menu_moreoverflow_holo_dark</item>
+        <item name="android:background">?attr/actionBarItemBackground</item>
+        <item name="android:contentDescription">@string/abs__action_menu_overflow_description</item>
+    </style>
+    <style name="Widget.Sherlock.ActionMode" parent="Sherlock.__Widget.ActionMode">
+        <item name="titleTextStyle">@style/TextAppearance.Sherlock.Widget.ActionMode.Title</item>
+        <item name="subtitleTextStyle">@style/TextAppearance.Sherlock.Widget.ActionMode.Subtitle</item>
+    </style>
+    <style name="Widget.Sherlock.ActivityChooserView" parent="Sherlock.__Widget.ActivityChooserView"/>
+    <style name="Widget.Sherlock.Button.Small" parent="Widget">
+        <item name="android:textAppearance">?attr/textAppearanceSmall</item>
+        <item name="android:textColor">@color/abs__primary_text_holo_dark</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:minWidth">48dip</item>
+    </style>
+    <style name="Widget.Sherlock.DropDownItem.Spinner" parent="Sherlock.__Widget.Holo.DropDownItem"/>
+    <style name="Widget.Sherlock.Light.ActionBar" parent="Widget.Sherlock.ActionBar">
+        <item name="titleTextStyle">@style/TextAppearance.Sherlock.Widget.ActionBar.Title</item>
+        <item name="subtitleTextStyle">@style/TextAppearance.Sherlock.Widget.ActionBar.Subtitle</item>
+        <item name="background">@drawable/abs__ab_transparent_light_holo</item>
+        <item name="backgroundStacked">@drawable/abs__ab_stacked_transparent_light_holo</item>
+        <item name="backgroundSplit">@drawable/abs__ab_bottom_transparent_light_holo</item>
+        <item name="homeAsUpIndicator">@drawable/abs__ic_ab_back_holo_light</item>
+        <item name="progressBarStyle">@style/Widget.Sherlock.Light.ProgressBar.Horizontal</item>
+        <item name="indeterminateProgressStyle">@style/Widget.Sherlock.Light.ProgressBar</item>
+    </style>
+    <style name="Widget.Sherlock.Light.ActionBar.Solid">
+        <item name="titleTextStyle">@style/TextAppearance.Sherlock.Widget.ActionBar.Title</item>
+        <item name="subtitleTextStyle">@style/TextAppearance.Sherlock.Widget.ActionBar.Subtitle</item>
+        <item name="background">@drawable/abs__ab_solid_light_holo</item>
+        <item name="backgroundStacked">@drawable/abs__ab_stacked_solid_light_holo</item>
+        <item name="backgroundSplit">@drawable/abs__ab_bottom_solid_light_holo</item>
+        <item name="divider">?attr/dividerVertical</item>
+        <item name="progressBarStyle">@style/Widget.Sherlock.Light.ProgressBar.Horizontal</item>
+        <item name="indeterminateProgressStyle">@style/Widget.Sherlock.Light.ProgressBar</item>
+        <item name="progressBarPadding">32dip</item>
+        <item name="itemPadding">8dip</item>
+    </style>
+    <style name="Widget.Sherlock.Light.ActionBar.Solid.Inverse">
+        <item name="titleTextStyle">@style/TextAppearance.Sherlock.Widget.ActionBar.Title.Inverse</item>
+        <item name="subtitleTextStyle">@style/TextAppearance.Sherlock.Widget.ActionBar.Subtitle.Inverse</item>
+        <item name="background">@drawable/abs__ab_solid_dark_holo</item>
+        <item name="backgroundStacked">@drawable/abs__ab_stacked_solid_dark_holo</item>
+        <item name="backgroundSplit">@drawable/abs__ab_bottom_solid_inverse_holo</item>
+        <item name="divider">@drawable/abs__list_divider_holo_dark</item>
+        <item name="progressBarStyle">@style/Widget.Sherlock.ProgressBar.Horizontal</item>
+        <item name="indeterminateProgressStyle">@style/Widget.Sherlock.ProgressBar</item>
+        <item name="progressBarPadding">32dip</item>
+        <item name="itemPadding">8dip</item>
+    </style>
+    <style name="Widget.Sherlock.Light.ActionBar.TabBar" parent="Widget.Sherlock.ActionBar.TabBar"/>
+    <style name="Widget.Sherlock.Light.ActionBar.TabBar.Inverse"/>
+    <style name="Widget.Sherlock.Light.ActionBar.TabText" parent="Widget.Sherlock.ActionBar.TabText"/>
+    <style name="Widget.Sherlock.Light.ActionBar.TabText.Inverse">
+        <item name="android:textColor">?attr/textColorPrimaryInverse</item>
+    </style>
+    <style name="Widget.Sherlock.Light.ActionBar.TabView" parent="Widget.Sherlock.ActionBar.TabView"/>
+    <style name="Widget.Sherlock.Light.ActionBar.TabView.Inverse"/>
+    <style name="Widget.Sherlock.Light.ActionButton" parent="Widget.Sherlock.ActionButton"/>
+    <style name="Widget.Sherlock.Light.ActionButton.CloseMode">
+        <item name="android:background">@drawable/abs__btn_cab_done_holo_light</item>
+    </style>
+    <style name="Widget.Sherlock.Light.ActionButton.Overflow">
+        <item name="android:src">@drawable/abs__ic_menu_moreoverflow_holo_light</item>
+    </style>
+    <style name="Widget.Sherlock.Light.ActionMode" parent="Widget.Sherlock.ActionMode">
+        <item name="titleTextStyle">@style/TextAppearance.Sherlock.Widget.ActionMode.Title</item>
+        <item name="subtitleTextStyle">@style/TextAppearance.Sherlock.Widget.ActionMode.Subtitle</item>
+    </style>
+    <style name="Widget.Sherlock.Light.ActionMode.Inverse" parent="Sherlock.__Widget.ActionMode">
+        <item name="titleTextStyle">@style/TextAppearance.Sherlock.Widget.ActionMode.Title.Inverse</item>
+        <item name="subtitleTextStyle">@style/TextAppearance.Sherlock.Widget.ActionMode.Subtitle.Inverse</item>
+    </style>
+    <style name="Widget.Sherlock.Light.ActivityChooserView" parent="Widget.Sherlock.ActivityChooserView">
+        <item name="android:background">@drawable/abs__ab_share_pack_holo_light</item>
+    </style>
+    <style name="Widget.Sherlock.Light.Button.Small" parent="Widget">
+        <item name="android:textAppearance">?attr/textAppearanceSmall</item>
+        <item name="android:textColor">@color/abs__primary_text_holo_light</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:minWidth">48dip</item>
+    </style>
+    <style name="Widget.Sherlock.Light.DropDownItem.Spinner" parent="Sherlock.__Widget.Holo.DropDownItem"/>
+    <style name="Widget.Sherlock.Light.ListPopupWindow" parent="Widget">
+        <item name="android:dropDownSelector">@drawable/abs__list_selector_holo_light</item>
+        <item name="android:popupBackground">@drawable/abs__menu_dropdown_panel_holo_light</item>
+        <item name="android:dropDownVerticalOffset">0dip</item>
+        <item name="android:dropDownHorizontalOffset">0dip</item>
+        <item name="android:dropDownWidth">wrap_content</item>
+    </style>
+    <style name="Widget.Sherlock.Light.ListView.DropDown" parent="Sherlock.__Widget.Holo.ListView">
+        <item name="android:divider">@drawable/abs__list_divider_holo_light</item>
+        <item name="android:listSelector">@drawable/abs__list_selector_holo_light</item>
+    </style>
+    <style name="Widget.Sherlock.Light.PopupMenu" parent="Widget.Sherlock.Light.ListPopupWindow"/>
+    <style name="Widget.Sherlock.Light.PopupWindow.ActionMode" parent="Widget">
+        <item name="android:popupBackground">@android:color/white</item>
+    </style>
+    <style name="Widget.Sherlock.Light.ProgressBar" parent="Widget.Sherlock.ProgressBar"/>
+    <style name="Widget.Sherlock.Light.ProgressBar.Horizontal" parent="Widget.Sherlock.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/abs__progress_horizontal_holo_light</item>
+    </style>
+    <style name="Widget.Sherlock.Light.SearchAutoCompleteTextView" parent="Sherlock.__Widget.SearchAutoCompleteTextView">
+        <item name="android:dropDownSelector">@drawable/abs__list_selector_holo_light</item>
+        <item name="android:popupBackground">@drawable/abs__menu_dropdown_panel_holo_light</item>
+    </style>
+    <style name="Widget.Sherlock.Light.Spinner.DropDown.ActionBar" parent="Sherlock.__Widget.Holo.Spinner">
+        <item name="android:background">@drawable/abs__spinner_ab_holo_light</item>
+        <item name="android:dropDownSelector">@drawable/abs__list_selector_holo_light</item>
+        <item name="android:popupBackground">@drawable/abs__menu_dropdown_panel_holo_light</item>
+    </style>
+    <style name="Widget.Sherlock.ListPopupWindow" parent="Widget">
+        <item name="android:dropDownSelector">@drawable/abs__list_selector_holo_dark</item>
+        <item name="android:popupBackground">@drawable/abs__menu_dropdown_panel_holo_dark</item>
+        <item name="android:dropDownVerticalOffset">0dip</item>
+        <item name="android:dropDownHorizontalOffset">0dip</item>
+        <item name="android:dropDownWidth">wrap_content</item>
+    </style>
+    <style name="Widget.Sherlock.ListView.DropDown" parent="Sherlock.__Widget.Holo.ListView"/>
+    <style name="Widget.Sherlock.PopupMenu" parent="Widget.Sherlock.ListPopupWindow"/>
+    <style name="Widget.Sherlock.PopupWindow.ActionMode" parent="Widget"/>
+    <style name="Widget.Sherlock.ProgressBar" parent="android:Widget.ProgressBar">
+        <item name="android:indeterminateDrawable">@drawable/abs__progress_medium_holo</item>
+        <item name="android:animationResolution">33</item>
+    </style>
+    <style name="Widget.Sherlock.ProgressBar.Horizontal" parent="android:Widget.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/abs__progress_horizontal_holo_dark</item>
+        <!-- item name="android:indeterminateDrawable">@drawable/abs__progress_indeterminate_horizontal_holo</item -->
+        <item name="android:minHeight">16dip</item>
+        <item name="android:maxHeight">16dip</item>
+    </style>
+    <style name="Widget.Sherlock.SearchAutoCompleteTextView" parent="Sherlock.__Widget.SearchAutoCompleteTextView">
+        <item name="android:dropDownSelector">@drawable/abs__list_selector_holo_dark</item>
+        <item name="android:popupBackground">@drawable/abs__menu_dropdown_panel_holo_dark</item>
+    </style>
+    <style name="Widget.Sherlock.Spinner.DropDown.ActionBar" parent="Sherlock.__Widget.Holo.Spinner">
+        <item name="android:background">@drawable/abs__spinner_ab_holo_dark</item>
+    </style>
+    <style name="Widget.Sherlock.TextView.SpinnerItem" parent="Widget">
+        <item name="android:textAppearance">@style/TextAppearance.Sherlock.Widget.TextView.SpinnerItem</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+    </style>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="baseToggleBtn">
+        <item name="android:textOff"/>
+        <item name="android:textOn"/>
+    </style>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/build/intermediates/exploded-aar/Mypinkpal_Android/facebook/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <style name="com_facebook_loginview_default_style" parent="@android:style/Widget.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/com_facebook_button_blue</item>
+        <item name="android:textColor">@color/com_facebook_loginview_text_color</item>
+        <item name="android:textSize">@dimen/com_facebook_loginview_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">@dimen/com_facebook_loginview_padding_left</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="com_facebook_loginview_silver_style" parent="@android:style/Widget.Button">
+        <item name="android:width">205dp</item>
+        <item name="android:height">44dp</item>
+        <item name="android:background">@drawable/com_facebook_loginbutton_silver</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#4B5164</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="tooltip_bubble_text">
+	    <item name="android:textColor">@android:color/white</item>
+	    <item name="android:gravity">left</item>
+	    <item name="android:textSize">12sp</item>
+	    <item name="android:shadowDy">-1</item>
+	    <item name="android:shadowRadius">0.25</item>
+	    <item name="android:shadowColor">#40000000</item>
+    </style>
+</resources>

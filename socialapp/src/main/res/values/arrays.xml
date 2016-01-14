@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="ns_menu_items">
+        <item>dashboard</item>
+        <item>message</item>
+        <item>friend</item>
+    </string-array>
+
+    <string-array name="confirm_friend">
+        <item>Accept</item>
+        <item>Deny</item>
+        <item>Cancel</item>
+    </string-array>
+
+    <string-array name="confirm_privacy">
+        <item>Everyone</item>
+        <item>Friends</item>
+        <item>Friends of Friends</item>
+        <item>Only Me</item>
+    </string-array>
+
+    <array name="ns_menu_items_icon">
+        <item>dashboard_icon</item>
+        <item>message_icon</item>
+        <item>friend_icon</item>
+        <item>friend_icon</item>
+        <item>nearme_icon</item>
+        <item>placeholder_group</item>
+        <item>credit_card</item>
+    </array>
+
+    <string-array name="change_picture">
+        <item>Take New Photo</item>
+        <item>Choose From Gallery</item>
+    </string-array>
+
+    <string-array name="ns_music_items">
+        <item>all_album_icon</item>
+        <item>my_album_icon</item>
+    </string-array>
+
+    <string-array name="sexuality">
+        <item></item>
+        <item>Asexual</item>
+        <item>Bicurious</item>
+        <item>Bisexual</item>
+        <item>Bi-trendy</item>
+        <item>Hetrosexual</item>
+        <item>Gay</item>
+        <item>Monosexual</item>
+        <item>Lesbian</item>
+        <item>Pansexual</item>
+        <item>Polysexual</item>
+        <item>Questioning</item>
+        <item>Transgender</item>
+        <item>Transexual</item>
+    </string-array>
+</resources>

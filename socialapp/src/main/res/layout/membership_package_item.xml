@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/membershipPackageImage"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:contentDescription="@string/imageView"
+        android:gravity="center"
+        android:src="@drawable/loading" />
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingLeft="10dp">
+
+        <TextView
+            android:id="@+id/membershipPackageTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Standard"
+            android:textColor="@color/red" />
+
+        <TextView
+            android:id="@+id/membershipPackageRecurring"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Free" />
+
+        <TextView
+            android:id="@+id/membershipPackageDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Never expires"
+            android:textColor="@color/gray"/>
+    </LinearLayout>
+
+</LinearLayout>

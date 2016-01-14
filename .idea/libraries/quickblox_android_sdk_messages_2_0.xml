@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="quickblox-android-sdk-messages-2.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Q-municate_core/libs/quickblox-android-sdk-messages-2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

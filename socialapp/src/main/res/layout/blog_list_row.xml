@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/thumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blog_image_thumb"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/image_user"
+            android:layout_width="55dip"
+            android:layout_height="55dip"
+            android:contentDescription="@string/imageView"
+            android:src="@drawable/loading" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp" >
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/friend_fullname"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:typeface="sans" />
+
+            <TextView
+                android:id="@+id/time_stamp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/blog_time"
+                android:textSize="12sp"
+                android:typeface="sans" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/view_short_text"
+        android:layout_below="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="3"
+        android:paddingBottom="8dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        android:textColor="@color/feed_status"
+        android:textSize="12sp"
+        android:typeface="sans" />
+
+    <!-- show comment and like -->
+
+    <View
+        android:id="@+id/line_view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/blog_background"
+        android:layout_below="@+id/view_short_text"
+        android:paddingBottom="5dp"
+        android:paddingLeft="1dp"
+        android:paddingRight="1dp"
+        android:paddingTop="5dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/line_view"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <include layout="@layout/mini_show_feed_comment" />
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/notice_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        layout="@layout/notice_layout"
+        android:visibility="gone" />
+
+</RelativeLayout>

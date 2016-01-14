@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <!-- We have to indicate that the listview is now a LoadMoreListView -->
+    <!--
+        <FrameLayout
+            android:id="@+id/frame_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="10dp" >
+
+            <RelativeLayout
+                android:id="@+id/search_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:focusableInTouchMode="true" >
+
+                <EditText
+                    android:id="@+id/searchEdit"
+                    android:layout_width="match_parent"
+                    android:layout_height="33dp"
+                    android:layout_margin="1dp"
+                    android:background="@drawable/edit_friend_color"
+                    android:focusable="true"
+                    android:hint=""
+                    android:maxLines="1"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/share_text"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerHorizontal="true"
+                    android:contentDescription="@string/imageView"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_action_search_friend" />
+            </RelativeLayout>
+    </FrameLayout>-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#efefef" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.handmark.pulltorefresh.library.PullToRefreshListView
+            xmlns:ptr="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/friend_fragment_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:fastScrollEnabled="false"
+            android:footerDividersEnabled="true"
+            android:headerDividersEnabled="true"
+            android:scrollbars="none"
+            android:smoothScrollbar="true"
+            ptr:ptrMode="both" />
+
+        <ProgressBar
+            android:id="@id/android:empty"
+            android:indeterminateDrawable="@drawable/loader_radar_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+
+        <include layout="@layout/no_internet_connection" />
+
+    </RelativeLayout>
+
+</LinearLayout>

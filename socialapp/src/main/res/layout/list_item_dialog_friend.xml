@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/contentRelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <RelativeLayout
+        android:id="@+id/user_online_layout"
+        android:layout_width="68dp"
+        android:layout_height="68dp"
+        android:layout_gravity="center"
+        android:layout_centerVertical="true">
+
+    <com.brodev.socialapp.view.imageview.RoundedImageView
+        style="@style/AvatarImageView"
+        android:id="@+id/avatar_imageview"
+        android:layout_width="@dimen/image_view_small_avatar_layout_width"
+        android:layout_height="@dimen/image_view_small_avatar_layout_height"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        app:border_color="@color/dark_gray"
+        app:border_width="@dimen/avatar_border_width"
+        app:oval="true" />
+
+        <ImageView
+            android:id="@+id/online_imageview"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:src="@drawable/user_offline" />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@id/user_online_layout"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/name_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size" />
+
+
+    </LinearLayout>
+</RelativeLayout>

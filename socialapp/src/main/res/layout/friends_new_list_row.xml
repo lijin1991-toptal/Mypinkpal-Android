@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/listFriend"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@color/white"
+    android:orientation="horizontal"
+    android:padding="6dip"
+    android:gravity="top">
+
+    <ImageView
+        android:id="@+id/friend_image_friend"
+        android:layout_width="80dip"
+        android:layout_height="80dip"
+        android:contentDescription="@string/imageView"
+        android:src="@drawable/loading" />
+
+    <RelativeLayout
+        android:id="@+id/friend_content_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity=""
+        android:orientation="vertical"
+        android:paddingLeft="5dip"
+        android:paddingRight="3dip"
+        android:layout_marginLeft="15dp">
+
+        <!-- Title Of Friend -->
+
+        <LinearLayout
+            android:id="@+id/first_line"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/friend_fullname"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:typeface="sans"
+                android:text=""
+                android:paddingTop="2dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="16dp"
+                android:textColor="@color/grey2"
+                android:id="@+id/ageTv"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:id="@+id/sexualityTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/grey2"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:typeface="sans"
+                android:text=""
+                android:paddingTop="2dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/mutualFriends"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/grey2"
+            android:textSize="16dp"
+            android:text="(Lesb)"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:visibility="invisible"
+            android:layout_below="@+id/first_line" />
+
+        <Button
+            android:id="@+id/sendMessBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="29dp"
+            android:background="@drawable/add_friend_confirm_request"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:visibility="visible"
+            android:text="Send a message"
+            android:layout_alignParentBottom="false"
+            android:layout_below="@+id/mutualFriends" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="54 km"
+            android:id="@+id/distance"
+            android:layout_alignBottom="@+id/sendMessBtn"
+            android:layout_marginBottom="3dp"
+            android:textColor="@color/grey2"
+            android:layout_alignParentRight="true"
+            android:layout_toLeftOf="@+id/user_online_layout"
+            android:layout_marginRight="5dp"
+            android:layout_alignParentTop="true"
+            android:visibility="gone"
+            android:gravity="right"
+            android:singleLine="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Los Angeles, US"
+            android:id="@+id/location"
+            android:layout_alignBottom="@+id/sendMessBtn"
+            android:layout_marginBottom="3dp"
+            android:textColor="@color/grey2"
+            android:layout_alignParentRight="true"
+            android:layout_toLeftOf="@+id/user_online_layout"
+            android:layout_marginRight="5dp" />
+
+        <LinearLayout
+            android:id="@+id/user_online_layout"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="false"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp">
+
+            <ImageView
+                android:id="@+id/user_online"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="false"
+                android:contentDescription="@string/imageView"
+                android:src="@drawable/user_offline"
+                android:visibility="gone"
+                android:layout_alignParentLeft="false" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/friend_notice_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        layout="@layout/notice_layout"
+        android:visibility="gone" />
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="wrap_content" >
+     
+    <LinearLayout
+        android:id="@+id/pages_content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <!--   ListRow Left sied Thumbnail image -->
+
+        <LinearLayout
+            android:id="@+id/thumbnail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="8dip" >
+
+            <ImageView
+                android:id="@+id/image_pages"
+                android:layout_width="75dip"
+                android:layout_height="75dip"
+                android:contentDescription="@string/imageView"
+                android:src="@drawable/loading" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/content_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="3dip"
+            android:paddingRight="3dip" >
+
+            <!-- Title Of pages -->
+
+            <TextView
+                android:id="@+id/title_pages"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/friend_fullname"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:typeface="sans" />
+
+            <!-- category of pages -->
+
+            <TextView
+                android:id="@+id/category_pages"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/feed_status"
+                android:textSize="13sp"
+                android:typeface="sans" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <include
+        android:id="@+id/pages_notice_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        layout="@layout/notice_layout"
+        android:visibility="gone" />
+
+</RelativeLayout>

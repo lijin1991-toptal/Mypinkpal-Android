@@ -1,0 +1,32 @@
+
+-dontwarn org.apache.**
+-dontwarn com.actionbarsherlock.internal.**
+-dontwarn com.google.common.**
+-dontwarn com.squareup.okhttp.**
+-dontwarn org.joda.convert.**
+-dontwarn org.simpleframework.**
+
+-keep class org.apache.** {*;}
+-keep class com.facebook.** {*;}
+-keep class com.quickblox.** {*;}
+-keep class com.googlecode.androidilbc.** {*;}
+-keep class com.kenai.jbosh.** {*;}
+-keep class com.novell.sasl.client.** {*;}
+-keep class com.qb.gson.** {*;}
+-keep class  de.measite.smack.** {*;}
+-keep class  jp.co.cyberagent.android.gpuimage.** {*;}
+-keep class  it.sauronsoftware.base64.** {*;}
+-keep class  org.apache.** {*;}
+-keep class  org.simpleframework.xml.** {*;}
+-keep class  org.xbill.DNS.** {*;}
+-keep class org.jivesoftware.** {*;}
+
+-keep class android.support.v4.app.** { *; }
+-keep interface android.support.v4.app.** { *; }
+-keep class com.actionbarsherlock.** { *; }
+-keep interface com.actionbarsherlock.** { *; }
+-keep interface com.quickblox.** { *; }
+-keep interface com.googlecode.androidilbc.** { *; }
+-keep interface com.kenai.jbosh.** { *; }
+-keep interface com.novell.sasl.client.** { *; }
+-keep interface com.qb.gson.** { *; }

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border_radius_feed"
+    android:orientation="vertical"
+    android:padding="1dp" >
+     
+    <!--   ListRow Left sied Thumbnail image -->
+
+    <LinearLayout
+        android:id="@+id/thumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/image_user"
+            android:layout_width="60dip"
+            android:layout_height="60dip"
+            android:contentDescription="@string/imageView"
+            android:src="@drawable/loading" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp" >
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/friend_fullname"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:typeface="sans" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/short_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="3"
+                    android:textColor="@color/feed_status"
+                    android:textSize="13sp"
+                    android:typeface="sans" />
+
+                <ImageView
+                    android:id="@+id/grid_item_comment_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:contentDescription="@string/imageView"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/music_dot" />
+
+                <TextView
+                    android:id="@+id/time_stamp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/upload_share"
+                    android:textSize="13sp"
+                    android:typeface="sans" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/content_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <!-- show comment and like -->
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/blog_background"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <include layout="@layout/mini_show_feed_comment" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <include
+        android:id="@+id/notice_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        layout="@layout/notice_layout"
+        android:visibility="gone" />
+
+</LinearLayout>

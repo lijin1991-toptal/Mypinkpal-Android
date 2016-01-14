@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/black"
+    android:baselineAligned="false" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="55dp"
+        android:background="@color/black"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/status_photo"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_weight="0.5"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true" >
+
+                <ImageView
+                    android:id="@+id/image_icon_status"
+                    android:layout_width="20dp"
+                    android:layout_height="19dp"
+                    android:layout_marginRight="5dp"
+                    android:contentDescription="@string/imageView"
+                    android:src="@drawable/photo_icon" />
+
+                <TextView
+                    android:id="@+id/photoTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_toRightOf="@+id/image_icon_status"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/status_album"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_weight="0.5" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true" >
+
+                <ImageView
+                    android:id="@+id/image_icon_album"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginRight="5dp"
+                    android:contentDescription="@string/imageView"
+                    android:src="@drawable/recent_photo" />
+
+                <TextView
+                    android:id="@+id/albumTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_toRightOf="@+id/image_icon_album"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/upload_status_check_in"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_weight="0.5"
+            android:visibility="gone">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true" >
+
+                <ImageView
+                    android:id="@+id/image_icon_check_in"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginRight="5dp"
+                    android:contentDescription="@string/imageView"
+                    android:src="@drawable/check_in_upload" />
+
+                <TextView
+                    android:id="@+id/upload_check_in_Txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_toRightOf="@+id/image_icon_check_in"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/line_privacy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/imageView"
+            android:src="@drawable/line" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/status_privacy_all"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:gravity="center_vertical"
+        android:background="@color/black"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp" >
+
+        <ImageView
+            android:id="@+id/image_icon_privacy"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/imageView"
+            android:src="@drawable/privacy_icon" />
+    </RelativeLayout>
+
+</RelativeLayout>

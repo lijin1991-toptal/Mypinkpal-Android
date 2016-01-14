@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blog_background">
+
+    <ScrollView
+        android:id="@+id/resendEmail_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/blog_background" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/yellowText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:lines="3"
+                android:maxLines="3"
+                android:textSize="15sp"
+                android:background="#FEFBD9"/>
+
+            <TextView
+                android:id="@+id/generalText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:lines="10"
+                android:maxLines="10"
+                android:textSize="15sp"/>
+
+            <Button
+                android:id="@+id/resendEmailBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:text="Resend Verification Email"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:textColor="@color/white"
+                android:background="@color/blue"/>
+
+         </LinearLayout>
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/edit_profile_basic_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone" />
+
+</RelativeLayout>

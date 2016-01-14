@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@color/white"
+    android:padding="6dip" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listFriend">
+
+
+
+        <RelativeLayout
+            android:id="@+id/user_online_layout"
+            android:layout_width="45dip"
+            android:layout_height="45dip"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_centerVertical="true">
+
+            <ImageView
+                android:id="@+id/friend_image_friend"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/imageView"
+                android:src="@drawable/loading" />
+
+            <ImageView
+                android:id="@+id/user_online"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:contentDescription="@string/imageView"
+                android:src="@drawable/user_offline"
+                android:visibility="visible"/>
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:id="@+id/friend_content_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:orientation="horizontal"
+            android:paddingLeft="5dip"
+            android:paddingRight="3dip"
+            android:layout_alignTop="@+id/user_online_layout"
+            android:layout_toRightOf="@+id/user_online_layout">
+
+            <!-- Title Of Friend -->
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/friend_fullname"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:typeface="sans" />
+
+            <View
+                android:layout_width="10dip"
+                android:layout_height="10dip" />
+
+            <TextView
+                android:id="@+id/year_sex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <include
+                android:id="@+id/friend_requests_action"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                layout="@layout/friend_requests_action"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/friend_position"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:orientation="horizontal"
+            android:paddingLeft="5dip"
+            android:paddingRight="3dip"
+            android:layout_alignBottom="@+id/user_online_layout"
+            android:layout_toRightOf="@+id/user_online_layout">
+
+            <TextView
+                android:id="@+id/friend_position_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center" />
+
+         </LinearLayout>
+
+        <include
+            android:id="@+id/friend_notice_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/notice_layout"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</RelativeLayout>

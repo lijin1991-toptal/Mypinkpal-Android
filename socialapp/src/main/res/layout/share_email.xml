@@ -1,0 +1,87 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/share_background"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/scrollview_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/linearlayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/border_post_privacy" >
+
+                <EditText
+                    android:id="@+id/searchEdit"
+                    android:layout_width="match_parent"
+                    android:layout_height="33dp"
+                    android:layout_margin="1dp"
+                    android:background="@drawable/post_privacy"
+                    android:ems="10"
+                    android:inputType="textEmailAddress"
+                    android:paddingLeft="6dp"
+                    android:paddingRight="6dp"
+                    android:textColor="@color/share_text"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/border_post_privacy" >
+
+                <EditText
+                    android:id="@+id/share_subject"
+                    android:layout_width="match_parent"
+                    android:layout_height="33dp"
+                    android:layout_margin="1dp"
+                    android:background="@drawable/post_privacy"
+                    android:ems="10"
+                    android:inputType="textEmailSubject"
+                    android:paddingLeft="6dp"
+                    android:paddingRight="6dp"
+                    android:textColor="@color/share_text"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/status_action_arena"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/border_post_status"
+                android:paddingBottom="20dp" >
+
+                <EditText
+                    android:id="@+id/share_post_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="#00000000"
+                    android:singleLine="false" >
+                </EditText>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+       <item
+        android:id="@+id/action_add_post"
+        android:icon="@drawable/post_stt"
+        android:showAsAction="always"
+        android:title="@string/upload"/>
+
+</menu>
+<!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/src/main/res/menu/thread.xml -->

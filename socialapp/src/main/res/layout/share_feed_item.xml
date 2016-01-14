@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border_radius_feed_share"
+    android:orientation="vertical" >
+
+    <!-- Share feed title -->
+
+    <TextView
+        android:id="@+id/share_feed_title_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/feed_title"
+        android:textSize="13sp"
+        android:layout_margin="5dp"
+        android:typeface="sans" />
+
+    <!-- feed title of feed share -->
+
+    <TextView
+        android:id="@+id/share_feed_title_of_feed_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/feed_title"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:layout_margin="5dp"
+        android:visibility="gone" />
+
+    <!-- Share feed status -->
+
+    <TextView
+        android:id="@+id/share_feed_status_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textColor="@color/feed_title"
+        android:textSize="13sp"
+        android:typeface="sans"
+        android:visibility="gone" />
+
+    <!-- image view -->
+
+    <ImageView
+        android:id="@+id/share_feed_image_view"
+        android:layout_width="310dp"
+        android:layout_height="310dp"
+        android:layout_marginBottom="5dp"
+        android:contentDescription="@string/imageView"
+        android:scaleType="centerCrop"
+        android:src="@drawable/loading"
+        android:visibility="gone" />
+
+</LinearLayout>

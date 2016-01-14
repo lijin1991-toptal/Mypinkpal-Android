@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/paperSlidingTab/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <declare-styleable name="PagerSlidingTabStrip"><attr format="color" name="indicatorColor"/><attr format="color" name="underlineColor"/><attr format="color" name="dividerColor"/><attr format="dimension" name="indicatorHeight"/><attr format="dimension" name="underlineHeight"/><attr format="dimension" name="dividerPadding"/><attr format="dimension" name="tabPaddingLeftRight"/><attr format="dimension" name="scrollOffset"/><attr format="reference" name="tabBackground"/><attr format="boolean" name="shouldExpand"/><attr format="boolean" name="textAllCaps"/></declare-styleable>
+</resources>

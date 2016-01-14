@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="1dip" >
+
+    <RelativeLayout
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <uk.co.senab.photoview.PhotoView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/like_arena_photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/photo_toolbar"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/like_view_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:orientation="horizontal"
+            android:padding="4dip" >
+
+            <TextView
+                android:id="@+id/like"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/feed_total_like"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:typeface="sans"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/comment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/feed_total_like"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:typeface="sans"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/like_comment_photo_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal"
+            android:padding="4dip" >
+
+            <ImageView
+                android:id="@+id/grid_item_like_icon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:contentDescription="@string/imageView"
+                android:layout_marginLeft="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/like_icon"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/total_like"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/feed_total_like"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:typeface="sans"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/grid_item_comment_icon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="10dp"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/imageView"
+                android:src="@drawable/commet_icon"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/total_comment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/feed_total_like"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:typeface="sans"
+                android:visibility="gone" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+</FrameLayout>

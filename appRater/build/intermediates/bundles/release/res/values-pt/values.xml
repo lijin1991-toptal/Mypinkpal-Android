@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/appRater/src/main/res/values-pt/strings.xml -->
+    <eat-comment/>
+    <string name="dialog_title">Avalie %s</string>
+    <string name="later">Mais tarde</string>
+    <string name="no_thanks">Não obrigado</string>
+    <string name="rate">Avalie agora</string>
+    <string name="rate_message">Se gosta de utilizar esta aplicação, por favor dispense alguns momentos para a avaliar. Obrigado pelo seu apoio.</string>
+</resources>

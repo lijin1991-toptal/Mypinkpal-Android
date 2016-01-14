@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:id="@+id/player"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blog_background"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_radius_feed"
+            android:orientation="vertical"
+            android:padding="1dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/image_user"
+                    android:layout_width="60dip"
+                    android:layout_height="60dip"
+                    android:contentDescription="@string/imageView"
+                    android:src="@drawable/loading" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="8dp"
+                    android:paddingTop="8dp" >
+
+                    <TextView
+                        android:id="@+id/songName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="7dp"
+                        android:textColor="@color/friend_fullname"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/shortText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/feed_status"
+                            android:textSize="13sp"
+                            android:typeface="sans" />
+
+                        <ImageView
+                            android:id="@+id/grid_item_comment_icon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:contentDescription="@string/imageView"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/music_dot" />
+
+                        <TextView
+                            android:id="@+id/time_stamp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/upload_share"
+                            android:textSize="13sp"
+                            android:typeface="sans" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/blog_line" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp" >
+
+                <ImageView
+                    android:id="@+id/videoImage"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_centerHorizontal="true"
+                    android:contentDescription="@string/imageView" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:contentDescription="@string/imageView"
+                    android:src="@drawable/video_play" />
+
+                <TextView
+                    android:id="@+id/duration"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/videoImage"
+                    android:layout_alignRight="@+id/videoImage"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginRight="2dp"
+                    android:background="@color/black"
+                    android:textColor="@color/white" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/blog_background"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp" />
+
+            <TextView
+                android:id="@+id/videoContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:padding="5dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/blog_background"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center" >
+
+                <include layout="@layout/mini_show_feed_comment" />
+            </RelativeLayout>
+
+            <FrameLayout
+                android:id="@+id/commentfragment_wrap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

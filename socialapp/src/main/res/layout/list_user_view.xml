@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/profile_frag"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/user_fragment_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/feed_background"
+        android:divider="@null"
+        android:dividerHeight="13dp"
+        android:fastScrollEnabled="false"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:scrollbars="none"
+        android:smoothScrollbar="true"
+        ptr:ptrMode="both" />
+
+    <ProgressBar
+        android:id="@id/android:empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+    <include layout="@layout/no_internet_connection" />
+
+</RelativeLayout>

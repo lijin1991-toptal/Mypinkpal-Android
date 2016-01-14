@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Mypinkpal_Android.iml" filepath="$PROJECT_DIR$/Mypinkpal_Android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Q-municate_core/Q-municate_core.iml" filepath="$PROJECT_DIR$/Q-municate_core/Q-municate_core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/SlidingMenu/SlidingMenu.iml" filepath="$PROJECT_DIR$/libraries/SlidingMenu/SlidingMenu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/SlidingMenu/library/SlidingMenu-library.iml" filepath="$PROJECT_DIR$/libraries/SlidingMenu/library/SlidingMenu-library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/appRater/appRater.iml" filepath="$PROJECT_DIR$/appRater/appRater.iml" />
+      <module fileurl="file://$PROJECT_DIR$/circularImageView/circularImageView.iml" filepath="$PROJECT_DIR$/circularImageView/circularImageView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/facebook/facebook.iml" filepath="$PROJECT_DIR$/facebook/facebook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/libraries.iml" filepath="$PROJECT_DIR$/libraries/libraries.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paperSlidingTab/paperSlidingTab.iml" filepath="$PROJECT_DIR$/paperSlidingTab/paperSlidingTab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pullToRefreshLi/pullToRefreshLi.iml" filepath="$PROJECT_DIR$/pullToRefreshLi/pullToRefreshLi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/socialapp/socialapp.iml" filepath="$PROJECT_DIR$/socialapp/socialapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stickyListHeaders/stickyListHeaders.iml" filepath="$PROJECT_DIR$/stickyListHeaders/stickyListHeaders.iml" />
+      <module fileurl="file://$PROJECT_DIR$/urlImageViewHelper/urlImageViewHelper.iml" filepath="$PROJECT_DIR$/urlImageViewHelper/urlImageViewHelper.iml" />
+    </modules>
+  </component>
+</project>

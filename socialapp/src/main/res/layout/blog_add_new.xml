@@ -1,0 +1,153 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey1" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/moduleName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/textTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/login_edittext1"
+            android:ems="10"
+            android:inputType="text"
+            android:paddingLeft="11dp"
+            android:typeface="normal" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/textCotent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/login_edittext1"
+            android:ems="10"
+            android:gravity="top|left"
+            android:inputType="textMultiLine"
+            android:maxLines="8"
+            android:minLines="6"
+            android:paddingLeft="11dp"
+            android:scrollbars="vertical"
+            android:typeface="normal" />
+
+        <TextView
+            android:id="@+id/categoryView"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="5dp"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/blog_line"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp" />
+
+        <LinearLayout
+            android:id="@+id/listCategories"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ProgressBar
+                android:id="@+id/progress_blog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:paddingBottom="8dp" >
+
+            <TextView
+                android:id="@+id/postPrivacy"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="5dp"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white" >
+
+                <RelativeLayout
+                    android:id="@+id/status_privacy_all"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="9dp"
+                    android:background="@drawable/border_post_privacy" >
+
+                    <TextView
+                        android:id="@+id/status_privacy"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginTop="1dp"
+                        android:background="@drawable/post_privacy"
+                        android:paddingLeft="38dp"
+                        android:paddingRight="38dp"
+                        android:paddingTop="8dp"
+                        android:textColor="@color/share_status"
+                        android:textSize="14sp" />
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_margin="8dp"
+                        android:contentDescription="@string/imageView"
+                        android:src="@drawable/post_stt_privacy_icon" />
+
+                    <ImageView
+                        android:id="@+id/post_stt_privacy_img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:contentDescription="@string/imageView"
+                        android:src="@drawable/post_stt_privacy" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:id="@+id/ImageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/status_privacy_all"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="10dp"
+                    android:contentDescription="@string/imageView"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/loading"
+                    android:visibility="gone" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

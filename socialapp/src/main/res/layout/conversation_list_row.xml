@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="5dip"
+        android:background="@drawable/image_bg" >
+
+        <ImageView
+            android:id="@+id/image_conversation"
+            android:layout_width="45dip"
+            android:layout_height="45dip"
+            android:contentDescription="@string/imageView"
+            android:src="@drawable/loading" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/content_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_marginRight="50dp"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/content_conversation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bubble_odd"
+            android:textColor="@color/viewmore_button"
+            android:textSize="13sp"
+            android:typeface="sans"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/sticker_conversation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/imageView"
+            android:src="@drawable/loading"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/gifView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:orientation="vertical"
+            android:visibility="gone" >
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/time_conversation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/converstion_time"
+            android:textSize="13sp"
+            android:typeface="sans" />
+    </LinearLayout>
+
+</RelativeLayout>

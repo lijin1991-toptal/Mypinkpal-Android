@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@color/white"
+    android:padding="6dip" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listFriend">
+
+        <ImageView
+            android:id="@+id/friend_roomuser"
+            android:layout_width="45dip"
+            android:layout_height="45dip"
+            android:layout_marginLeft="5dp"
+            android:contentDescription="@string/imageView"
+            android:src="@drawable/loading" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dip"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal">
+
+            <!-- Title Of Friend -->
+
+            <TextView
+                android:id="@+id/friend_roomuser_text"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:layout_gravity="center"
+                android:textColor="@color/friend_fullname"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:typeface="sans" />
+
+            <CheckBox
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:id="@+id/user_checkbox"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

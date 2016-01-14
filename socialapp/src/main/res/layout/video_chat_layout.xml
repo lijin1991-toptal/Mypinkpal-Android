@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:layout_gravity="center_horizontal">
+
+    <!--<android.opengl.GLSurfaceView-->
+    <!--android:id="@+id/cameraView"-->
+    <!--android:layout_height="220dp"-->
+    <!--android:layout_width="200dp"-->
+    <!--android:layout_marginTop="5dp"-->
+    <!--android:layout_centerHorizontal="true"/>-->
+
+
+
+    <jp.co.cyberagent.android.gpuimage.OpponentGlSurfaceView
+        android:id="@+id/opponentView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/act_call_end_button_height"
+        android:layout_alignParentBottom="false"
+        android:visibility="visible" />
+
+    <com.quickblox.module.videochat.views.CameraView
+        android:id="@+id/cameraView"
+        android:layout_height="150dp"
+        android:layout_width="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/act_call_end_button_height"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:visibility="visible" />
+
+    <ProgressBar
+        android:id="@+id/opponentImageLoading"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_margin="50dp"
+        android:visibility="gone"
+        android:layout_centerInParent="true" />
+
+
+    <LinearLayout
+        android:id="@+id/controlPanelRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/screen_call_background_color"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btnShowMyself"
+            android:layout_width="@dimen/act_call_end_button_height"
+            android:layout_height="@dimen/act_call_end_button_height"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center|left"
+            android:background="@drawable/button_general_selector"
+            android:padding="5dp"
+            android:enabled="false"
+            android:src="@drawable/ic_smiles"
+            android:visibility="invisible" />
+
+        <ImageButton
+            android:id="@+id/stopСallButton"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/act_call_end_button_height"
+            android:layout_centerInParent="true"
+            android:layout_weight="1"
+            android:background="@drawable/button_general_selector"
+            android:src="@drawable/ic_call_mute" />
+
+        <ToggleButton
+            style="@style/baseToggleBtn"
+            android:id="@+id/muteMicrophoneButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|right"
+            android:background="@drawable/button_microphone_selector"
+            android:padding="5dp"
+            android:visibility="invisible" />
+    </LinearLayout>
+</RelativeLayout>

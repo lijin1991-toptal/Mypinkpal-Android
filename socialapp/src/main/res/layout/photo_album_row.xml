@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="horizontal" >
+     
+
+    <RelativeLayout
+        android:id="@+id/photo_album_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/thumbnail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="7dp" >
+
+            <ImageView
+                android:id="@+id/album_image"
+                android:layout_width="80dip"
+                android:layout_height="80dip"
+                android:contentDescription="@string/imageView"
+                android:scaleType="centerCrop"
+                android:src="@drawable/loading" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/content_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/thumbnail"
+            android:layout_margin="5dp"
+            android:layout_toRightOf="@+id/thumbnail"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/album_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/album_name"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:typeface="sans" />
+
+            <TextView
+                android:id="@+id/album_total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/album_name"
+                android:textColor="@color/album_total"
+                android:textSize="12sp"
+                android:typeface="sans" />
+
+            <TextView
+                android:id="@+id/album_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/album_name"
+                android:layout_marginRight="3dp"
+                android:maxLines="3"
+                android:textSize="12sp"
+                android:typeface="sans" />
+
+            <TextView
+                android:id="@+id/album_time_phrase"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/album_description"
+                android:layout_marginBottom="4dp"
+                android:textColor="@color/album_time"
+                android:textSize="12sp"
+                android:typeface="sans" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/notice_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        layout="@layout/notice_layout"
+        android:visibility="gone" />
+
+</RelativeLayout>

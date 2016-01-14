@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/frame_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/sidebar_background"
+        android:padding="10dp"
+        android:visibility="gone" >
+
+        <RelativeLayout
+            android:id="@+id/search_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:focusableInTouchMode="true" >
+
+            <EditText
+                android:id="@+id/searchEdit"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:layout_margin="1dp"
+                android:background="@drawable/edit_color"
+                android:focusable="true"
+                android:hint=""
+                android:maxLines="1"
+                android:paddingLeft="10dp"
+                android:textColor="@color/share_text"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerHorizontal="true"
+                android:contentDescription="@string/imageView"
+                android:padding="10dp"
+                android:src="@drawable/ic_action_search" />
+        </RelativeLayout>
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ListView
+            android:id="@android:id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/sidebar_background"
+            android:choiceMode="singleChoice"
+            android:divider="#222222"
+            android:dividerHeight="1dp" />
+        
+        <ProgressBar
+            android:id="@+id/sidebar_loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:visibility="gone" />
+
+        <include layout="@layout/no_internet_connection" />
+    </RelativeLayout>
+
+</LinearLayout>

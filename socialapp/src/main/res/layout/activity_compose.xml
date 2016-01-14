@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/linearlayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_share_post_search"
+            android:paddingLeft="9dp"
+            android:paddingRight="8dp"
+            android:paddingTop="10dp" >
+
+            <RelativeLayout
+                android:id="@+id/status_privacy_all"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@drawable/border_post_privacy" >
+
+                <EditText
+                    android:id="@+id/searchEdit"
+                    android:layout_width="match_parent"
+                    android:layout_height="33dp"
+                    android:layout_margin="1dp"
+                    android:background="@drawable/post_privacy"                    
+                    android:paddingLeft="6dp"
+                    android:paddingRight="70dp"
+                    android:textColor="@color/share_text"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:id="@+id/post_comment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/share_post_search"
+                    android:textColor="@color/white" />
+            </RelativeLayout>
+        </FrameLayout>
+
+        <ListView
+            android:id="@+id/android:list"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1" >
+        </ListView>
+
+        <include layout="@layout/send_view" />
+    </LinearLayout>
+
+</RelativeLayout>

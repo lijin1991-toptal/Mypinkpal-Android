@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/subcribeTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/forum_subcribe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:onClick="onSubcribeClicked" />
+
+            <RadioButton
+                android:id="@+id/forum_no_subcribe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onSubcribeClicked" />
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/forum_post_thread"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/login_edittext1"
+            android:ems="10"
+            android:gravity="top|left"
+            android:inputType="textMultiLine"
+            android:minLines="6"
+            android:paddingLeft="11dp"
+            android:scrollbars="vertical"
+            android:typeface="normal" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+</RelativeLayout>

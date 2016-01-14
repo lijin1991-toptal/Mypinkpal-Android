@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/message_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="7dip" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal" 
+        android:paddingLeft="5dp"
+        android:paddingRight="3dp">
+
+        <ImageView
+            android:id="@+id/block_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/imageView"
+            android:paddingLeft="5dp"
+            android:src="@drawable/block" 
+            android:visibility="gone"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="8dip" >
+
+        <ImageView
+            android:id="@+id/user_image"
+            android:layout_width="55dip"
+            android:layout_height="55dip"
+            android:background="@drawable/border_image"
+            android:contentDescription="@string/imageView"
+            android:src="@drawable/loading" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/content_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:orientation="vertical"
+        android:paddingLeft="3dip"
+        android:paddingRight="3dip" >
+
+        <!-- fullname Of Friend -->
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/friend_fullname"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+        <!-- content of message -->
+
+        <TextView
+            android:id="@+id/message_preview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:textColor="@color/feed_status"
+            android:textSize="13sp"
+            android:typeface="sans" />
+        <!-- Time -->
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/friend_birthday"
+            android:textSize="13sp"
+            android:typeface="sans" />
+    </LinearLayout>
+
+    <include
+        android:id="@+id/notice_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        layout="@layout/notice_layout"
+        android:visibility="gone" />
+
+</RelativeLayout>

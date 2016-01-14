@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="horizontal"
+    android:padding="6dip" >
+
+    <LinearLayout
+        android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="8dip" >
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="55dip"
+            android:layout_height="55dip"
+            android:contentDescription="@string/imageView"
+            android:src="@drawable/loading" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/content_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:orientation="vertical"
+        android:paddingLeft="3dip"
+        android:paddingRight="3dip" >
+
+        <TextView
+            android:id="@+id/item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/friend_fullname"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/feed_status"
+            android:textSize="13sp"
+            android:typeface="sans" />
+
+        <ImageView
+            android:id="@+id/item_photo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:contentDescription="@string/imageView"
+            android:src="@drawable/loading"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,90 @@
+-keep class com.brodev.socialapp.entity.User {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+-keep class com.brodev.socialapp.view.SplashActivity { <init>(); }
+-keep class com.brodev.socialapp.view.LoginActivity { <init>(); }
+-keep class com.brodev.socialapp.view.SignUpActivity { <init>(); }
+-keep class com.brodev.socialapp.view.ForgotPassActivity { <init>(); }
+-keep class com.brodev.socialapp.view.VerifyEmailActivity { <init>(); }
+-keep class com.facebook.LoginActivity { <init>(); }
+-keep class com.google.ads.AdActivity { <init>(); }
+-keep class com.brodev.socialapp.view.DashboardActivity { <init>(); }
+-keep class com.mypinkpal.app.GcmBroadcastReceiver { <init>(); }
+-keep class com.mypinkpal.app.GCMIntentService { <init>(); }
+-keep class com.quickblox.q_municate_core.service.QBService { <init>(); }
+-keep class com.paypal.android.sdk.payments.PayPalService { <init>(); }
+-keep class com.quickblox.q_municate_core.db.DatabaseProvider { <init>(); }
+-keep class com.brodev.socialapp.view.BaseActivity { <init>(); }
+-keep class com.brodev.socialapp.view.WebviewActivity { <init>(); }
+-keep class com.brodev.socialapp.view.ConversationActivity { <init>(); }
+-keep class com.brodev.socialapp.view.ComposeActivity { <init>(); }
+-keep class com.brodev.socialapp.view.FriendTabsPager { <init>(); }
+-keep class com.brodev.socialapp.view.ImagePagerActivity { <init>(); }
+-keep class com.brodev.socialapp.view.ImageGridActivity { <init>(); }
+-keep class com.brodev.socialapp.view.SearchActivity { <init>(); }
+-keep class com.brodev.socialapp.view.SkipAddFriend { <init>(); }
+-keep class com.brodev.socialapp.view.FriendActivity { <init>(); }
+-keep class com.brodev.socialapp.view.ImageUpload { <init>(); }
+-keep class com.brodev.socialapp.view.ShareActivity { <init>(); }
+-keep class com.brodev.socialapp.view.PhotoGridActivity { <init>(); }
+-keep class com.brodev.socialapp.view.MusicPlaySong { <init>(); }
+-keep class com.brodev.socialapp.view.ProfilePicActivity { <init>(); }
+-keep class com.brodev.socialapp.view.CommentActivity { <init>(); }
+-keep class com.brodev.socialapp.view.ConfirmRequestActivity { <init>(); }
+-keep class com.brodev.socialapp.view.ForumActivity { <init>(); }
+-keep class com.brodev.socialapp.view.ThreadActivity { <init>(); }
+-keep class com.brodev.socialapp.view.ChangePassword { <init>(); }
+-keep class com.brodev.socialapp.view.AddThreadActivity { <init>(); }
+-keep class com.brodev.socialapp.view.PostThreadActivity { <init>(); }
+-keep class com.brodev.socialapp.view.BlogDetail { <init>(); }
+-keep class com.brodev.socialapp.view.BlogPostNew { <init>(); }
+-keep class com.brodev.socialapp.view.VideoPlay { <init>(); }
+-keep class com.brodev.socialapp.view.SyncContactActivity { <init>(); }
+-keep class com.brodev.socialapp.view.OpenYouTubePlayerActivity { <init>(); }
+-keep class com.brodev.socialapp.view.MarketPlaceDetail { <init>(); }
+-keep class com.brodev.socialapp.view.ImageActivity { <init>(); }
+-keep class com.brodev.socialapp.view.InviteActivity { <init>(); }
+-keep class com.brodev.socialapp.view.EventDetailActivity { <init>(); }
+-keep class com.brodev.socialapp.view.CreateNewEventActivity { <init>(); }
+-keep class com.brodev.socialapp.view.AlbumSelectedActivity { <init>(); }
+-keep class com.brodev.socialapp.view.AlbumPhotoActivity { <init>(); }
+-keep class com.brodev.socialapp.view.CreateAlbumPhotoActivity { <init>(); }
+-keep class com.brodev.socialapp.view.CreateRoomActivity { <init>(); }
+-keep class com.brodev.socialapp.view.ChatroomsActivity { <init>(); }
+-keep class com.brodev.socialapp.view.chats.PrivateDialogActivity { <init>(); }
+-keep class com.brodev.socialapp.view.chats.NewDialogActivity { <init>(); }
+-keep class com.brodev.socialapp.view.chats.GroupDialogActivity { <init>(); }
+-keep class com.brodev.socialapp.view.chats.GroupDialogDetailsActivity { <init>(); }
+-keep class com.brodev.socialapp.view.chats.AddFriendsToGroupActivity { <init>(); }
+-keep class com.brodev.socialapp.view.mediacall.CallActivity { <init>(); }
+-keep class com.brodev.socialapp.view.VideoActivity { <init>(); }
+-keep class com.brodev.socialapp.view.VoiceActivity { <init>(); }
+-keep class com.brodev.socialapp.view.CheckInActivity { <init>(); }
+-keep class com.brodev.socialapp.view.EditProfileBasic { <init>(); }
+-keep class com.brodev.socialapp.view.EditProfileAbout { <init>(); }
+-keep class com.brodev.socialapp.view.EditProfileInterests { <init>(); }
+-keep class com.brodev.socialapp.view.EditProfileDetails { <init>(); }
+-keep class com.brodev.socialapp.view.PrivacySettingsProfile { <init>(); }
+-keep class com.brodev.socialapp.view.PrivacySettingsItems { <init>(); }
+-keep class com.brodev.socialapp.view.PrivacySettingsNotifications { <init>(); }
+-keep class com.brodev.socialapp.view.PrivacySettingsBlockedUsers { <init>(); }
+-keep class com.brodev.socialapp.view.PrivacySettingsInvisibleMode { <init>(); }
+-keep class com.brodev.socialapp.view.NoInternetActivity { <init>(); }
+-keep class com.mypinkpal.app.AppActivity { <init>(); }
+-keep class com.paypal.android.sdk.payments.PaymentActivity { <init>(); }
+-keep class com.paypal.android.sdk.payments.LoginActivity { <init>(); }
+-keep class com.paypal.android.sdk.payments.PaymentMethodActivity { <init>(); }
+-keep class com.paypal.android.sdk.payments.PaymentConfirmActivity { <init>(); }
+-keep class com.paypal.android.sdk.payments.PayPalFuturePaymentActivity { <init>(); }
+-keep class com.paypal.android.sdk.payments.FuturePaymentConsentActivity { <init>(); }
+-keep class com.paypal.android.sdk.payments.FuturePaymentInfoActivity { <init>(); }
+-keep class com.paypal.android.sdk.payments.PayPalProfileSharingActivity { <init>(); }
+-keep class com.paypal.android.sdk.payments.ProfileSharingConsentActivity { <init>(); }
+-keep class com.paypal.android.MEP.PayPalActivity { <init>(); }
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+-keep public class * extends java.lang.annotation.Annotation {
+    *;
+}

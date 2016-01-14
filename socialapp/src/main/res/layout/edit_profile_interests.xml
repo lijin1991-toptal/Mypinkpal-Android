@@ -1,0 +1,116 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blog_background">
+
+    <ScrollView
+        android:id="@+id/edit_profile_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/blog_background" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/moduleName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:textAllCaps="true"
+                android:text="Interests"
+                android:textColor="@color/module_name"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Movies"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="20dp"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:textColor="@color/module_name"/>
+
+            <EditText
+                android:id="@+id/edit_profile_movies_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:scrollbars="vertical"
+                android:gravity="top|left"
+                android:inputType="textMultiLine"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" >
+
+                <ProgressBar
+                    android:id="@+id/content_loading"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Interests"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="20dp"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:textColor="@color/module_name"/>
+
+            <EditText
+                android:id="@+id/edit_profile_interest_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:scrollbars="vertical"
+                android:gravity="top|left"
+                android:inputType="textMultiLine"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Music"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="20dp"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:textColor="@color/module_name"/>
+
+            <EditText
+                android:id="@+id/edit_profile_music_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:scrollbars="vertical"
+                android:gravity="top|left"
+                android:inputType="textMultiLine"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/edit_profile_basic_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <include layout="@layout/no_internet_connection" />
+    </RelativeLayout>
+
+</RelativeLayout>

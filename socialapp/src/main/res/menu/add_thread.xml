@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/submit_thread"
+        android:visible="true"
+        android:showAsAction="always"
+        android:icon="@drawable/post_stt"
+        android:title="@string/post_comment" />
+
+</menu>

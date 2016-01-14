@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_add"
+        android:icon="@drawable/ic_action_new"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/acb_add_chat_title"/>
+</menu>
+<!-- From: file:/Volumes/backup/Upwork/Social%20android/Mypinkpal_Android/socialapp/src/main/res/menu/dialogs_list_menu.xml -->
